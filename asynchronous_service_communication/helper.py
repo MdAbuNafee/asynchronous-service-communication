@@ -1,41 +1,37 @@
+# TODO: write docstring, typehint for all functions
+
 from uuid import UUID
 
 ALLOWED_CHARACTERS_FOR_DRIVER_TOKEN = ("ABCDEFGHIJKLMNOPQRSTUVWXYZ"
                                        "abcdefghijklmnopqrstuvwxyz012345678._~")
 
-def get_driver_token_validity_error(token):
+def get_driver_token_validity_error(driver_token: str) -> list[str]:
     validity_error = []
-    if not (20 <= len(token) <= 80):
+    if not (20 <= len(driver_token) <= 80):
         validity_error.append(
-            f'token len is {len(token)}. But it should be between 20 and 80 '
+            f'token len is {len(driver_token)}. But it should be between 20 and 80 '
             f'characters'
         )
-    for char in token:
+    for char in driver_token:
         if char not in ALLOWED_CHARACTERS_FOR_DRIVER_TOKEN:
             validity_error.append(
                 f'token contains invalid character {char}'
             )
     return validity_error
 
-def is_valid_uuid(uuid_to_test):
+
+def is_valid_uuid(uuid_to_test: str) -> bool:
     """
     Check if uuid_to_test is a valid UUID.
 
      Parameters
     ----------
     uuid_to_test : str
-    version : {1, 2, 3, 4}
 
      Returns
     -------
     `True` if uuid_to_test is a valid UUID, otherwise `False`.
 
-     Examples
-    --------
-    >>> is_valid_uuid('c9bf9e57-1685-4c89-bafb-ff5af830be8a')
-    True
-    >>> is_valid_uuid('c9bf9e58')
-    False
     """
 
     try:
