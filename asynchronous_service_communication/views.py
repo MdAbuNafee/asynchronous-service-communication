@@ -10,7 +10,8 @@ from django.views import View
 from django.views.decorators.csrf import csrf_exempt
 
 from asynchronous_service_communication import helper
-
+# from tasks import get_decision
+from asynchronous_service_communication import tasks
 
 @csrf_exempt
 def post_session(request):
@@ -25,7 +26,12 @@ def post_session(request):
         return JsonResponse(
             {'error': "\n".join(post_data_validity_error)}, status=400
         )
-    asyncio.run(forward_data_to_internal_authorization_service(post_data))
+    station_id = post_data.get('station_id')
+    driver_token = post_data.get('driver_token')
+
+    tasks.get_decision.delay(station_id=station_id, driver_token=driver_token)
+
+    # asyncio.run(forward_data_to_internal_authorization_service(post_data))
     return JsonResponse({'success': True})
 
 
