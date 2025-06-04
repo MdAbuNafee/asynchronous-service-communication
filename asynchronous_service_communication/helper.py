@@ -1,13 +1,19 @@
 # TODO: write docstring, typehint for all functions
 
 from uuid import UUID
+from asynchronous_service_communication import constant
+
 
 ALLOWED_CHARACTERS_FOR_DRIVER_TOKEN = ("ABCDEFGHIJKLMNOPQRSTUVWXYZ"
                                        "abcdefghijklmnopqrstuvwxyz012345678._~")
 
+
+
+
 def get_driver_token_validity_error(driver_token: str) -> list[str]:
     validity_error = []
-    if not (20 <= len(driver_token) <= 80):
+    if not (constant.MIN_DRIVER_TOKEN_LENGTH <= len(driver_token) <=
+            constant.MAX_DRIVER_TOKEN_LENGTH):
         validity_error.append(
             f'token len is {len(driver_token)}. But it should be between 20 and 80 '
             f'characters'

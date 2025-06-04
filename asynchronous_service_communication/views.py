@@ -2,9 +2,6 @@ import json
 import asyncio
 
 from django.http import JsonResponse
-from django.views import View
-
-# Create your views here.
 
 
 from django.views.decorators.csrf import csrf_exempt
@@ -28,8 +25,13 @@ def post_session(request):
         )
     station_id = post_data.get('station_id')
     driver_token = post_data.get('driver_token')
+    callback_url = post_data.get('callback_url')
 
-    tasks.get_decision.delay(station_id=station_id, driver_token=driver_token)
+    tasks.make_decision.delay(
+        station_id=station_id,
+        driver_token=driver_token,
+        callback_url=callback_url,
+    )
 
     # asyncio.run(forward_data_to_internal_authorization_service(post_data))
     return JsonResponse({'success': True})
