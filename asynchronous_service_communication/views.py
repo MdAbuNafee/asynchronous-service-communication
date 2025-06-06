@@ -12,6 +12,7 @@ from asynchronous_service_communication.validation import \
 from asynchronous_service_communication import decision_data_access
 
 
+# TODO: migrate the callback to another django project
 @csrf_exempt
 def driver_callback(request):
     logger.info(f"received driver callback: {request.body}")
@@ -37,8 +38,6 @@ def post_session(request):
     station_id = post_data.get('station_id')
     driver_token = post_data.get('driver_token')
     callback_url = post_data.get('callback_url')
-
-
 
     decision_instance = decision_data_access.create_initial_decision(
         station_id=station_id,
