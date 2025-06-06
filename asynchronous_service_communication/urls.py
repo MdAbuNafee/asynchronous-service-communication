@@ -23,5 +23,5 @@ from asynchronous_service_communication import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     # path('session/', csrf_exempt(views.SessionView.as_view())),
-    path('session/', views.post_session),
+    path('charge_point/session/', views.post_session),
 ]

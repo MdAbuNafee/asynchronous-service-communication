@@ -9,5 +9,4 @@ import json
 class SessionView(View):
     def post(self, request):
         post_data = json.loads(request.body.decode('utf-8'))
-        print(post_data)
         return render(request, 'session.html')
