@@ -25,9 +25,11 @@ def get_unattended_decision_instance(time: datetime) -> DecisionInstance:
 
     )
 
+
 def get_decision_instance(primary_key : int) -> DecisionInstance:
     decisionInstance = DecisionInstance.objects.get(pk=primary_key)
     return decisionInstance
+
 
 def save_decision(primary_key: int, decision: DecisionTypes) -> DecisionInstance:
     decision_instance = DecisionInstance.objects.get(pk=primary_key)
@@ -36,15 +38,3 @@ def save_decision(primary_key: int, decision: DecisionTypes) -> DecisionInstance
     decision_instance.save()
     return decision_instance
 
-# def save_decision(
-#     station_id: str,
-#     driver_token: str,
-#     decision: DecisionTypes,
-# ) -> DecisionInstance:
-#     decision_instance = DecisionInstance(
-#         station_id=station_id,
-#         driver_token=driver_token,
-#         decision=decision
-#     )
-#     decision_instance.save()
-#     return decision_instance

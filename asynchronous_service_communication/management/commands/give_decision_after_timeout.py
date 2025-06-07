@@ -1,3 +1,4 @@
+import logging
 from datetime import timezone
 
 from datetime import datetime, timedelta
@@ -7,8 +8,7 @@ from django.core.management.base import BaseCommand, CommandError
 from django.utils import timezone
 from django.db.models.functions import Trunc
 
-from asynchronous_service_communication import constant
-from asynchronous_service_communication.models import DecisionInstance
+from asynchronous_service_communication import constant, models, callback
 from asynchronous_service_communication import callback
 
 
@@ -17,11 +17,10 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         while True:
-            print("current time = " + str(timezone.now()) )
             target_time = timezone.now() - timedelta(hours=0,
                                            seconds=constant.TIMEOUT_IN_SECONDS)
-            print("target_time: {}".format(target_time))
-            decision_instance_list = DecisionInstance.objects.filter(
+            logging.info(f"target_time: {target_time}")
+            decision_instance_list = models.DecisionInstance.objects.filter(
                 created_at__gte=target_time,
                 decision_taken=False,
             )
@@ -32,7 +31,7 @@ class Command(BaseCommand):
                 callback.make_callback(
                     station_id=str(decision_instance.station_id),
                     driver_token=decision_instance.driver_token,
-                    status=decision_instance.decision,
+                    status=str(decision_instance.decision),
                     callback_url=decision_instance.callback_url,
                 )
             sleep(1 * 30)
