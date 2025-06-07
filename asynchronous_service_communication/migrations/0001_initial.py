@@ -7,18 +7,25 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='DecisionInstance',
+            name="DecisionInstance",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('station_id', models.UUIDField()),
-                ('driver_token', models.CharField(max_length=80)),
-                ('created_at', models.DateTimeField(auto_now_add=True)),
-                ('decision', models.CharField(max_length=10)),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("station_id", models.UUIDField()),
+                ("driver_token", models.CharField(max_length=80)),
+                ("created_at", models.DateTimeField(auto_now_add=True)),
+                ("decision", models.CharField(max_length=10)),
             ],
         ),
     ]

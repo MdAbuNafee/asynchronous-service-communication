@@ -1,43 +1,37 @@
 import json
+import logging
 
 from django.http import JsonResponse
 
-
 from django.views.decorators.csrf import csrf_exempt
 
-from asynchronous_service_communication import tasks, logger
-from asynchronous_service_communication.validation import \
-    get_session_post_data_validity_error
+from asynchronous_service_communication import (
+    tasks,
+    validation,
+    decision_data_access,
+    logger,
+)
 
-from asynchronous_service_communication import decision_data_access
-
-
-# TODO: migrate the callback to another django project
-@csrf_exempt
-def driver_callback(request):
-    logger.info(f"received driver callback: {request.body}")
+# logger = logging.getLogger('webservice')
 
 
 @csrf_exempt
 def post_session(request):
     logger.info(f"POST session request: {request.body}")
-    if request.method != 'POST':
-        return JsonResponse({'error': 'Invalid request method'}, status=400)
+    if request.method != "POST":
+        return JsonResponse({"error": "Invalid request method"}, status=400)
     post_data = json.loads(request.body)
-    logger.info(f'in post session {post_data}')
-    post_data_validity_error = get_session_post_data_validity_error(
+    post_data_validity_error = validation.get_session_post_data_validity_error(
         post_data=post_data
     )
     if len(post_data_validity_error) > 0:
         return JsonResponse(
-            {
-                'status': 'failed',
-                'error': "\n".join(post_data_validity_error)},
-                status=400
+            {"status": "failed", "error": "\n".join(post_data_validity_error)},
+            status=400,
         )
-    station_id = post_data.get('station_id')
-    driver_token = post_data.get('driver_token')
-    callback_url = post_data.get('callback_url')
+    station_id = post_data.get("station_id")
+    driver_token = post_data.get("driver_token")
+    callback_url = post_data.get("callback_url")
 
     decision_instance = decision_data_access.create_initial_decision(
         station_id=station_id,
@@ -49,8 +43,10 @@ def post_session(request):
         decision_instance.pk,
     )
 
-    return JsonResponse({
-        'status': 'accepted',
-        'message': 'Request is being processed asynchronously. '
-                   'The result will be sent to the provided callback URL.',
-    })
+    return JsonResponse(
+        {
+            "status": "accepted",
+            "message": "Request is being processed asynchronously. "
+            "The result will be sent to the provided callback URL.",
+        }
+    )

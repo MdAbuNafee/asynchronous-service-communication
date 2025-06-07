@@ -1,40 +1,45 @@
 from django.db.models import UUIDField
+from typing import List
 
-from asynchronous_service_communication.constant import DecisionTypes
-from asynchronous_service_communication.models import DecisionInstance
-from datetime import datetime
+from asynchronous_service_communication import constant, models
+
 
 def create_initial_decision(
     station_id: UUIDField,
     driver_token: str,
     callback_url: str,
-) -> DecisionInstance:
-    decision_instance = DecisionInstance(
+) -> models.DecisionInstance:
+    decision_instance = models.DecisionInstance(
         station_id=station_id,
         driver_token=driver_token,
         callback_url=callback_url,
-        decision=DecisionTypes.UNKNOWN,
+        decision=constant.DecisionTypes.UNKNOWN,
         decision_taken=False,
     )
     decision_instance.save()
     return decision_instance
 
 
-def get_unattended_decision_instance(time: datetime) -> DecisionInstance:
-    decisionInstance = DecisionInstance.objects.filter(
-
-    )
-
-
-def get_decision_instance(primary_key : int) -> DecisionInstance:
-    decisionInstance = DecisionInstance.objects.get(pk=primary_key)
+def get_decision_instance(primary_key: int) -> models.DecisionInstance:
+    decisionInstance = models.DecisionInstance.objects.get(pk=primary_key)
     return decisionInstance
 
 
-def save_decision(primary_key: int, decision: DecisionTypes) -> DecisionInstance:
-    decision_instance = DecisionInstance.objects.get(pk=primary_key)
+def get_unattened_decision_instance(
+    target_time: any,
+) -> List[models.DecisionInstance]:
+    decision_instance_list = models.DecisionInstance.objects.filter(
+        created_at__lt=target_time,
+        decision_taken=False,
+    )
+    return decision_instance_list
+
+
+def save_decision(
+    primary_key: int, decision: constant.DecisionTypes
+) -> models.DecisionInstance:
+    decision_instance = models.DecisionInstance.objects.get(pk=primary_key)
     decision_instance.decision = decision
     decision_instance.decision_taken = True
     decision_instance.save()
     return decision_instance
-

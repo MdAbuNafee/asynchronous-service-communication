@@ -6,23 +6,23 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('asynchronous_service_communication', '0001_initial'),
+        ("asynchronous_service_communication", "0001_initial"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='decisioninstance',
-            name='callback_url',
+            model_name="decisioninstance",
+            name="callback_url",
             field=models.URLField(blank=True, null=True),
         ),
         migrations.AddField(
-            model_name='decisioninstance',
-            name='decision_taken',
+            model_name="decisioninstance",
+            name="decision_taken",
             field=models.BooleanField(default=False),
         ),
         migrations.AddField(
-            model_name='decisioninstance',
-            name='updated_at',
+            model_name="decisioninstance",
+            name="updated_at",
             field=models.DateTimeField(auto_now=True),
         ),
     ]

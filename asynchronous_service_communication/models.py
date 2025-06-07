@@ -16,12 +16,12 @@ class DecisionInstance(models.Model):
 
     def __str__(self):
         return (
-            f'\n\n primary key = {self.pk}, \n'
-            f'station_id = {self.station_id}, \n'
-            f'driver_token = {self.driver_token},  \n'
-            f'created_at = {self.created_at}, \n'
-            f'decision = {self.decision} \n \n '
-            f'updated_at = {self.updated_at}, \n'
-            f'decision_taken = {self.decision_taken} \n'
-            f'callback_url = {self.callback_url}, \n'
+            f"\n\n primary key = {self.pk}, \n"
+            f"station_id = {self.station_id}, \n"
+            f"driver_token = {self.driver_token},  \n"
+            f"created_at = {self.created_at}, \n"
+            f"decision = {self.decision}, \n "
+            f"updated_at = {self.updated_at}, \n"
+            f"decision_taken = {self.decision_taken}, \n"
+            f"callback_url = {self.callback_url}, \n\n"
         )

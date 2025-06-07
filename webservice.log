@@ -1,0 +1,5 @@
+POST session request: b'{\n    "station_id": "123e4567-e89b-12d3-a456-426614174000",\n    "driver_token": "validDriverToken1234567",\n    "callback_url": "https://webhook.site/a02530e4-62e6-433b-ae31-d1392e823f12"\n}'
+in post session {'station_id': '123e4567-e89b-12d3-a456-426614174000', 'driver_token': 'validDriverToken1234567', 'callback_url': 'https://webhook.site/a02530e4-62e6-433b-ae31-d1392e823f12'}
+POST session request: b'{\n    "station_id": "123e4567-e89b-12d3-a456-426614174000",\n    "driver_token": "validDriverToken1234567",\n    "callback_url": "https://webhook.site/a02530e4-62e6-433b-ae31-d1392e823f12"\n}'
+POST session request: b'{\n    "station_id": "123e4567-e89b-12d3-a456-426614174000",\n    "driver_token": "validDriverToken1234567",\n    "callback_url": "https://webhook.site/a02530e4-62e6-433b-ae31-d1392e823f12"\n}'
+POST session request: b'{\n    "station_id": "123e4567-e89b-12d3-a456-426614174000",\n    "driver_token": "validDriverToken1234567",\n    "callback_url": "https://webhook.site/a02530e4-62e6-433b-ae31-d1392e823f12"\n}'

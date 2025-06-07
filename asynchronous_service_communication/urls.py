@@ -14,6 +14,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
 from django.contrib import admin
 from django.urls import path
 from django.views.decorators.csrf import csrf_exempt
@@ -21,7 +22,7 @@ from django.views.decorators.csrf import csrf_exempt
 from asynchronous_service_communication import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path("admin/", admin.site.urls),
     # path('session/', csrf_exempt(views.SessionView.as_view())),
-    path('charge_point/session/', views.post_session),
+    path("charge_point/session/", views.post_session),
 ]
