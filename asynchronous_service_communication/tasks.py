@@ -34,8 +34,6 @@ def make_decision(primary_key: int) -> Optional[DecisionInstance]:
     # TODO: create another url callback in urls.py
     # TODO: write unit tests
 
-
-
     return decision
 
 
@@ -43,9 +41,3 @@ def is_station_driver_ok_to_give(station_id: str, driver_token: str) -> bool:
     return True # In real life it should be checked from ACL
 
 
-def is_station_available(station_id: str) -> bool:
-    return True # TODO: check from ACL
-
-
-def is_driver_token_valid(driver_token: str) -> bool:
-    return True # TODO: check from ACL

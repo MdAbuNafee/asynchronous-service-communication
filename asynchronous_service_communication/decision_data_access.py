@@ -2,6 +2,7 @@ from django.db.models import UUIDField
 
 from asynchronous_service_communication.constant import DecisionTypes
 from asynchronous_service_communication.models import DecisionInstance
+from datetime import datetime
 
 def create_initial_decision(
     station_id: UUIDField,
@@ -17,6 +18,12 @@ def create_initial_decision(
     )
     decision_instance.save()
     return decision_instance
+
+
+def get_unattended_decision_instance(time: datetime) -> DecisionInstance:
+    decisionInstance = DecisionInstance.objects.filter(
+
+    )
 
 def get_decision_instance(primary_key : int) -> DecisionInstance:
     decisionInstance = DecisionInstance.objects.get(pk=primary_key)
