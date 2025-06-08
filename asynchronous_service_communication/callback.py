@@ -1,7 +1,6 @@
-import logging
-
 import requests
 
+from asynchronous_service_communication import logger
 
 def make_callback(
     station_id: str,
@@ -9,15 +8,13 @@ def make_callback(
     status: str,
     callback_url: str,
 ) -> bool:
-    # tyepcasting to str again to make sure values are json serializable
-    station_id = str(station_id)
-    driver_token = str(driver_token)
-    status = str(status)
+    # tyepcasting to all the variables to str again to make sure values are
+    # json serializable
     callback_url = str(callback_url)
     post_data = {
-        "station_id": station_id,
-        "driver_token": driver_token,
-        "status": status,
+        "station_id": str(station_id),
+        "driver_token": str(driver_token),
+        "status": str(status),
     }
     response = requests.post(callback_url, json=post_data)
     if response.status_code != 200:
