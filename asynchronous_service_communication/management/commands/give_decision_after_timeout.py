@@ -20,7 +20,8 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         while True:
             target_time = timezone.now() - timedelta(
-                hours=0, seconds=constant.TIMEOUT_IN_SECONDS
+                hours=0,
+                seconds=constant.TIMEOUT_IN_SECONDS,
             )
             logger.info(f"target_time: {target_time}")
             decision_instance_list = (
@@ -33,7 +34,6 @@ class Command(BaseCommand):
                 decision_instance.decision_taken = True
                 decision_instance.save()
                 callback.make_callback(
-                    logger=logger,
                     station_id=str(decision_instance.station_id),
                     driver_token=str(decision_instance.driver_token),
                     status=str(decision_instance.decision),

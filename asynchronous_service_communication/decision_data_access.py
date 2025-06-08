@@ -20,7 +20,7 @@ def create_initial_decision(
     return decision_instance
 
 
-def get_decision_instance(primary_key: int) -> models.DecisionInstance:
+def get_decision_instance_by_pk(primary_key: int) -> models.DecisionInstance:
     decisionInstance = models.DecisionInstance.objects.get(pk=primary_key)
     return decisionInstance
 
@@ -43,3 +43,4 @@ def save_decision(
     decision_instance.decision_taken = True
     decision_instance.save()
     return decision_instance
+

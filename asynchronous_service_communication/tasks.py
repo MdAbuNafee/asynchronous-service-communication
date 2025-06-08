@@ -1,4 +1,3 @@
-import logging
 from typing import Optional
 
 from celery import shared_task
@@ -11,11 +10,14 @@ from asynchronous_service_communication import (
     logger,
 )
 
+# TODO: write unit tests
+# TODO: write python manage.py shell -> db inspection -> fetch all recent
+#  DecisionInstance
 
 @shared_task
 def make_decision(primary_key: int) -> Optional[models.DecisionInstance]:
     logger.info("celery task started")
-    decision_instance = decision_data_access.get_decision_instance(
+    decision_instance = decision_data_access.get_decision_instance_by_pk(
         primary_key=primary_key
     )
     logger.info(f"in get decision for decision_instance {decision_instance}")
@@ -39,8 +41,6 @@ def make_decision(primary_key: int) -> Optional[models.DecisionInstance]:
         callback_url=decision.callback_url,
     )
     logger.info("celery task finished")
-
-    # TODO: write unit tests
 
     return decision
 

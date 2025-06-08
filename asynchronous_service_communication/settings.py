@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "driver.apps.DriverConfig",
     "asynchronous_service_communication",
 ]
 
@@ -160,7 +159,6 @@ LOGGING = {
             "filename": "command.log",
         },
     },
-    # TODO: instead of __name__ get the current version of the logger
     "loggers": {
         "django": {
             "handlers": ["file", "console"],

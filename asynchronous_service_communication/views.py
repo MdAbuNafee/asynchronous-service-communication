@@ -1,5 +1,4 @@
 import json
-import logging
 
 from django.http import JsonResponse
 
@@ -11,8 +10,6 @@ from asynchronous_service_communication import (
     decision_data_access,
     logger,
 )
-
-# logger = logging.getLogger('webservice')
 
 
 @csrf_exempt

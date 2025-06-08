@@ -14,3 +14,20 @@ python3 manage.py runserver
 
 
 python3 manage.py give_decision_after_timeout
+
+
+Check how many DecisionInstance are in DB:
+len(DecisionInstance.objects.all())
+
+for checking database
+python manage.py shell
+
+for importing DecisionInstance
+from asynchronous_service_communication.models import DecisionInstance
+
+Fetch DecisionInstance sorted by desc primary key 
+DecisionInstance.objects.order_by('-pk').all()[start:end] [start, start+1, ..
+..., end-2, end-1]
+DecisionInstance.objects.order_by('-pk').all()[1:2]
+
+
