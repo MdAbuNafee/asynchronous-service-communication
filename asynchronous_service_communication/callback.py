@@ -8,6 +8,9 @@ def make_callback(
     status: str,
     callback_url: str,
 ) -> bool:
+    """
+    Make a callback to the callback_url with other parameters as json post data
+    """
     # tyepcasting to all the variables to str again to make sure values are
     # json serializable
     callback_url = str(callback_url)

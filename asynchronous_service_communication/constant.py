@@ -11,7 +11,3 @@ class DecisionTypes(Enum):
     NOT_ALLOWED = "not_allowed"
     UNKNOWN = "unknown"
     INVALID = "invalid"
-
-    @classmethod
-    def choices(cls):
-        return tuple((i.name, i.value) for i in cls)

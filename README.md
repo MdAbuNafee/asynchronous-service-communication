@@ -28,6 +28,14 @@ from asynchronous_service_communication.models import DecisionInstance
 Fetch DecisionInstance sorted by desc primary key 
 DecisionInstance.objects.order_by('-pk').all()[start:end] [start, start+1, ..
 ..., end-2, end-1]
-DecisionInstance.objects.order_by('-pk').all()[1:2]
+example: DecisionInstance.objects.order_by('-pk').all()[1:2]
 
 
+
+
+Before running test.
+need to run this in terminal.
+export DJANGO_SETTINGS_MODULE=asynchronous_service_communication.settings
+
+Then run test suite: 
+./manage.py test

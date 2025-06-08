@@ -1,7 +1,7 @@
-from .celery import app as celery_app
+from asynchronous_service_communication.celery_config import app as \
+    celery_app
 import logging
 import os
-import environ
 
 service_name = os.environ.get("service_name")
 

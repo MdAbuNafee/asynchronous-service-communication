@@ -10,12 +10,14 @@ from asynchronous_service_communication import (
     logger,
 )
 
-# TODO: write unit tests
-# TODO: write python manage.py shell -> db inspection -> fetch all recent
-#  DecisionInstance
+# TODO: dockerize my solution
 
 @shared_task
 def make_decision(primary_key: int) -> Optional[models.DecisionInstance]:
+    """
+    Asynchrnous internal authorization service. Makes a decision after
+    checking Access Control List (ACL)
+    """
     logger.info("celery task started")
     decision_instance = decision_data_access.get_decision_instance_by_pk(
         primary_key=primary_key
@@ -46,4 +48,8 @@ def make_decision(primary_key: int) -> Optional[models.DecisionInstance]:
 
 
 def is_station_driver_ok_to_give(station_id: str, driver_token: str) -> bool:
-    return True  # In real life it should be checked from ACL
+    """
+    Result from ACL. Here it is a mock. But in real life it should do some
+    operation
+    """
+    return True

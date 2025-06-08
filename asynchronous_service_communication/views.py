@@ -23,7 +23,7 @@ def post_session(request):
     )
     if len(post_data_validity_error) > 0:
         return JsonResponse(
-            {"status": "failed", "error": "\n".join(post_data_validity_error)},
+            {"status": "failed", "error": " \n".join(post_data_validity_error)},
             status=400,
         )
     station_id = post_data.get("station_id")

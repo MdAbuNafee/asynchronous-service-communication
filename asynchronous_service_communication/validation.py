@@ -4,6 +4,9 @@ from asynchronous_service_communication import helper
 
 
 def get_session_post_data_validity_error(post_data: dict[str, str]) -> list[str]:
+    """
+    Check Validation of post data. Returns the list of errors encountered.
+    """
     validity_errors = []
     try:
         if "station_id" not in post_data:
@@ -26,7 +29,6 @@ def get_session_post_data_validity_error(post_data: dict[str, str]) -> list[str]
             validity_errors.append("callback_url is missing")
         elif not validators.url(post_data["callback_url"]):
             validity_errors.append("callback_url is not a valid URL")
-
     except:
         validity_errors.append("invalid post data. failed to validate")
     return validity_errors

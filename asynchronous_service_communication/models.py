@@ -5,7 +5,9 @@ from asynchronous_service_communication import constant
 
 class DecisionInstance(models.Model):
     station_id = models.UUIDField()
-    driver_token = models.CharField(max_length=constant.MAX_DRIVER_TOKEN_LENGTH)
+    driver_token = models.CharField(
+        max_length=constant.MAX_DRIVER_TOKEN_LENGTH
+    )
     decision = models.CharField(
         max_length=10,
     )
@@ -13,6 +15,7 @@ class DecisionInstance(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     callback_url = models.URLField(null=True, blank=True)
     decision_taken = models.BooleanField(default=False)
+
 
     def __str__(self):
         return (
