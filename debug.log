@@ -281,3 +281,112 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 Bad Request: /charge_point/session/
 Bad Request: /charge_point/session/
+Watching for file changes with StatReloader
+Internal Server Error: /charge_point/session/
+Traceback (most recent call last):
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/kombu/utils/functional.py", line 32, in __call__
+    return self.__value__
+AttributeError: 'ChannelPromise' object has no attribute '__value__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/kombu/transport/virtual/base.py", line 951, in create_channel
+    return self._avail_channels.pop()
+IndexError: pop from empty list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/redis/connection.py", line 385, in connect_check_health
+    sock = self.retry.call_with_retry(
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/redis/retry.py", line 87, in call_with_retry
+    return do()
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/redis/connection.py", line 386, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/redis/connection.py", line 797, in _connect
+    raise err
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/redis/connection.py", line 781, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/kombu/connection.py", line 472, in _reraise_as_library_errors
+    yield
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/kombu/connection.py", line 459, in _ensure_connection
+    return retry_over_time(
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/kombu/utils/functional.py", line 318, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/kombu/connection.py", line 938, in _connection_factory
+    self._connection = self._establish_connection()
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/kombu/connection.py", line 860, in _establish_connection
+    conn = self.transport.establish_connection()
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/kombu/transport/virtual/base.py", line 975, in establish_connection
+    self._avail_channels.append(self.create_channel(self))
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/kombu/transport/virtual/base.py", line 953, in create_channel
+    channel = self.Channel(connection)
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/kombu/transport/redis.py", line 751, in __init__
+    self.client.ping()
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/redis/commands/core.py", line 1219, in ping
+    return self.execute_command("PING", **kwargs)
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/redis/client.py", line 623, in execute_command
+    return self._execute_command(*args, **options)
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/redis/client.py", line 629, in _execute_command
+    conn = self.connection or pool.get_connection()
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/redis/utils.py", line 191, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/redis/connection.py", line 1530, in get_connection
+    connection.connect()
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/redis/connection.py", line 379, in connect
+    self.connect_check_health(check_health=True)
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/redis/connection.py", line 391, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/asynchronous_service_communication/views.py", line 47, in post_session
+    tasks.make_decision.delay(
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/celery/app/task.py", line 444, in delay
+    return self.apply_async(args, kwargs)
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/celery/app/task.py", line 601, in apply_async
+    return app.send_task(
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/celery/app/base.py", line 930, in send_task
+    amqp.send_task_message(P, name, message, **options)
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/celery/app/amqp.py", line 523, in send_task_message
+    ret = producer.publish(
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/kombu/messaging.py", line 190, in publish
+    return _publish(
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/kombu/connection.py", line 556, in _ensured
+    return fun(*args, **kwargs)
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/kombu/messaging.py", line 200, in _publish
+    channel = self.channel
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/kombu/messaging.py", line 224, in _get_channel
+    channel = self._channel = channel()
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/kombu/utils/functional.py", line 34, in __call__
+    value = self.__value__ = self.__contract__()
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/kombu/messaging.py", line 240, in <lambda>
+    channel = ChannelPromise(lambda: connection.default_channel)
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/kombu/connection.py", line 957, in default_channel
+    self._ensure_connection(**conn_opts)
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/kombu/connection.py", line 459, in _ensure_connection
+    return retry_over_time(
+  File "/Users/nafee.zahid/.pyenv/versions/3.9.18/lib/python3.9/contextlib.py", line 137, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/.venv/lib/python3.9/site-packages/kombu/connection.py", line 476, in _reraise_as_library_errors
+    raise ConnectionError(str(exc)) from exc
+kombu.exceptions.OperationalError: Error 61 connecting to localhost:6379. Connection refused.
+"POST /charge_point/session/ HTTP/1.1" 500 261221
+Bad Request: /charge_point/session/
+Bad Request: /charge_point/session/
+Bad Request: /charge_point/session/
+Bad Request: /charge_point/session/

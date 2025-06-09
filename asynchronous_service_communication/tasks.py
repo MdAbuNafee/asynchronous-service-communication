@@ -10,9 +10,7 @@ from asynchronous_service_communication import (
     logger,
 )
 
-# TODO: dockerize my solution
-# TODO: dockerrize and add multiple commands there
-# Check whether I can use choices as TextChoices for DecisionType :
+# TODO: Check whether I can use choices as TextChoices for DecisionType :
 # https://stackoverflow.com/questions/54802616/how-can-one-use-enums-as-a-choice-field-in-a-django-model
 
 
