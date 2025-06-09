@@ -2,7 +2,6 @@ amqp==5.3.1
 asgiref==3.8.1
 async-timeout==5.0.1
 billiard==4.2.1
-black @ git+https://github.com/psf/black@7987951e246b4e76cc5225b2ccd89b5519a25ac8
 celery==5.5.3
 certifi==2025.4.26
 charset-normalizer==3.4.2
