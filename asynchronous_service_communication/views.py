@@ -14,10 +14,17 @@ from asynchronous_service_communication import (
 
 @csrf_exempt
 def post_session(request):
-    logger.info(f"POST session request: {request.body}")
     if request.method != "POST":
-        return JsonResponse({"error": "Invalid request method"}, status=400)
+        return JsonResponse(
+            data={
+                'status': 'failed',
+                "error": f"Invalid request method. request is "
+                f"{request.method}. But should be POST."
+            },
+            status=400
+        )
     post_data = json.loads(request.body)
+    logger.info(f"POST session request: {post_data}")
     post_data_validity_error = validation.get_session_post_data_validity_error(
         post_data=post_data
     )
@@ -35,10 +42,13 @@ def post_session(request):
         driver_token=driver_token,
         callback_url=callback_url,
     )
+    logger.info(f"saved decision instance: {decision_instance}")
 
     tasks.make_decision.delay(
         decision_instance.pk,
     )
+    logger.info("passed decision instance to the "
+                "internal authorization service ")
 
     return JsonResponse(
         {

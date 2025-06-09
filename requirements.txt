@@ -2,6 +2,7 @@ amqp==5.3.1
 asgiref==3.8.1
 async-timeout==5.0.1
 billiard==4.2.1
+black @ git+https://github.com/psf/black@7987951e246b4e76cc5225b2ccd89b5519a25ac8
 celery==5.5.3
 certifi==2025.4.26
 charset-normalizer==3.4.2
@@ -13,14 +14,19 @@ Django==4.2.21
 django-environ==0.12.0
 idna==3.10
 kombu==5.5.4
+mypy_extensions==1.1.0
 packaging==25.0
+pathspec==0.12.1
+platformdirs==4.3.8
 prompt_toolkit==3.0.51
 python-dateutil==2.9.0.post0
+pytokens==0.1.10
 redis==6.2.0
 requests==2.32.3
 schedule==1.2.2
 six==1.17.0
 sqlparse==0.5.3
+tomli==2.2.1
 typing_extensions==4.13.2
 tzdata==2025.2
 urllib3==2.4.0

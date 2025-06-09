@@ -13,17 +13,21 @@ def make_callback(
     """
     # tyepcasting to all the variables to str again to make sure values are
     # json serializable
+    logger.info(f"beginning of make_callback")
     callback_url = str(callback_url)
     post_data = {
         "station_id": str(station_id),
         "driver_token": str(driver_token),
         "status": str(status),
     }
+    logger.info(f"making callback to {callback_url} post_data: {post_data}")
     response = requests.post(callback_url, json=post_data)
+    logger.info(f"callback response: {response}")
     if response.status_code != 200:
         logger.error(
             f"request failed. status code : {response.status_code}. "
             f"content: {response.content}"
         )
         return False
+    logger.info(f"callback finished")
     return True

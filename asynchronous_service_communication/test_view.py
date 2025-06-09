@@ -25,7 +25,7 @@ class ViewTests(unittest.TestCase):
             "message": "Request is being processed asynchronously. The result will be sent to the provided callback URL."
         })
 
-    def test_not_valid_request(self):
+    def test_not_valid_request_body(self):
         response = self.client.post(
             path='/charge_point/session/',
             data={
@@ -45,3 +45,16 @@ class ViewTests(unittest.TestCase):
                     'characters \n'
                 'callback_url is not a valid URL'
         })
+
+    def test_get_request_should_post(self):
+        response = self.client.get(
+            path='/charge_point/session/',
+        )
+        assert response.status_code == 400
+        self.assertDictEqual(
+            d1=response.json(),
+            d2={
+                "status": "failed",
+                "error": f"Invalid request method. request is "
+                f"GET. But should be POST."
+            })
