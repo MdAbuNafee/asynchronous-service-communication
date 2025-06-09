@@ -4,6 +4,33 @@
 ![](./taskGivenToMe1.png)
 ![](./taskGivenToMe2.png)
 
+# Brief overview of the solution
+
+The solution is written in python3 (django). Main parts are
+1. API controller: a django web service:
+   - Receives request
+   - validates input 
+   - save the request in the database
+   - push the primary key of the row just savaed for the celery worker 
+   - immediately responds with an acknowledgement that request is received 
+2. Internal Authorization Service: a celery worker with radis
+   - It pops primary key from the queue. 
+   - Fetch the request row saved from database
+   - It then checks Access Control List 
+     (ACL) to make a decision.
+   - Modify the existing request in the database with the decision
+   - Send a callback to the client informing the decision
+3. A job that is running after every x seconds (x may vary)
+   - it fetches a list of requests that has both the characteristics 
+     - created before y seconds (y may vary)
+     - not got any decision from Internal Authorization Service
+   - for each request of the above mentioned list
+     - give each request decision as `unknown`
+     - save the request in database
+     - Send a callback to the client informing the decision
+
+
+# How to run it 
 
 service_name=webservice/celery/command
 
