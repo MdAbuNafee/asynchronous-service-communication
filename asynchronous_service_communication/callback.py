@@ -2,6 +2,7 @@ import requests
 
 from asynchronous_service_communication import logger
 
+
 def make_callback(
     station_id: str,
     driver_token: str,

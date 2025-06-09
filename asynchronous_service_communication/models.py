@@ -5,15 +5,13 @@ from asynchronous_service_communication import constant
 
 class DecisionInstance(models.Model):
     station_id = models.UUIDField()
-    driver_token = models.CharField(
-        max_length=constant.MAX_DRIVER_TOKEN_LENGTH
-    )
+    driver_token = models.CharField(max_length=constant.MAX_DRIVER_TOKEN_LENGTH)
     decision = models.CharField(max_length=constant.MAX_LEN_DECISION_TYPE)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     callback_url = models.URLField(null=True, blank=True)
     decision_taken_by = models.CharField(
-        max_length=constant.MAX_LEN_DECISION_TAKEN_By, default=''
+        max_length=constant.MAX_LEN_DECISION_TAKEN_By, default=""
     )
 
     def __str__(self):

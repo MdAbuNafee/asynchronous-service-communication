@@ -30,7 +30,7 @@ def get_unattened_decision_instance(
 ) -> List[models.DecisionInstance]:
     decision_instance_list = models.DecisionInstance.objects.filter(
         created_at__lt=target_time,
-        decision_taken_by='',
+        decision_taken_by="",
         decision=constant.DecisionTypes.UNKNOWN,
     )
     return decision_instance_list
@@ -46,4 +46,3 @@ def save_decision(
     decision_instance.decision_taken_by = decision_taken_by
     decision_instance.save()
     return decision_instance
-

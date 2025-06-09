@@ -13,7 +13,8 @@ from asynchronous_service_communication import (
 # TODO: dockerize my solution
 # TODO: dockerrize and add multiple commands there
 # Check whether I can use choices as TextChoices for DecisionType :
-    # https://stackoverflow.com/questions/54802616/how-can-one-use-enums-as-a-choice-field-in-a-django-model
+# https://stackoverflow.com/questions/54802616/how-can-one-use-enums-as-a-choice-field-in-a-django-model
+
 
 @shared_task
 def make_decision(primary_key: int) -> Optional[models.DecisionInstance]:
@@ -27,8 +28,10 @@ def make_decision(primary_key: int) -> Optional[models.DecisionInstance]:
     )
     logger.info(f"initial decision_instance {decision_instance}")
     if decision_instance.decision_taken_by:
-        logger.info(f"Previously decision already taken for primary key "
-                    f"{primary_key} by {decision_instance.decision_taken_by}")
+        logger.info(
+            f"Previously decision already taken for primary key "
+            f"{primary_key} by {decision_instance.decision_taken_by}"
+        )
         return None
     decision = constant.DecisionTypes.NOT_ALLOWED
     if is_station_driver_ok_to_give(
@@ -49,7 +52,6 @@ def make_decision(primary_key: int) -> Optional[models.DecisionInstance]:
     )
     logger.info(f" final decision_instance {decision_instance}")
     logger.info("celery task finished")
-
 
     return decision_instance
 

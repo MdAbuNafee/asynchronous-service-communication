@@ -33,3 +33,4 @@ urllib3==2.4.0
 validators==0.35.0
 vine==5.1.0
 wcwidth==0.2.13
+gunicorn==23.0.0

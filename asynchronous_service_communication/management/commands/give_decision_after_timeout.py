@@ -17,8 +17,7 @@ from asynchronous_service_communication.constant import (
     DecisionTakenByTypes,
     CRON_JOB_SLEEP_TIME_IN_SECONDS,
 )
-from asynchronous_service_communication.decision_data_access import \
-    save_decision
+from asynchronous_service_communication.decision_data_access import save_decision
 
 
 class Command(BaseCommand):
@@ -39,12 +38,13 @@ class Command(BaseCommand):
             )
             logger.info("decision_instance_list: {}".format(decision_instance_list))
             for decision_instance in decision_instance_list:
-                logger.info(f"before changing decision_instance:"
-                            f" {decision_instance}")
+                logger.info(
+                    f"before changing decision_instance:" f" {decision_instance}"
+                )
                 decision_instance = save_decision(
                     primary_key=decision_instance.pk,
                     decision=DecisionTypes.UNKNOWN,
-                    decision_taken_by=DecisionTakenByTypes.CRON_JOB
+                    decision_taken_by=DecisionTakenByTypes.CRON_JOB,
                 )
                 logger.info(f"after changing decision_instance: {decision_instance}")
                 callback.make_callback(
@@ -54,6 +54,5 @@ class Command(BaseCommand):
                     callback_url=str(decision_instance.callback_url),
                 )
             logger.info(f"end of cron job")
-            logger.info(f"Sleeping for : {CRON_JOB_SLEEP_TIME_IN_SECONDS} "
-                        f"seconds")
+            logger.info(f"Sleeping for : {CRON_JOB_SLEEP_TIME_IN_SECONDS} " f"seconds")
             sleep(CRON_JOB_SLEEP_TIME_IN_SECONDS)

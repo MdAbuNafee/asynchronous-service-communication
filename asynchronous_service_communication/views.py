@@ -17,11 +17,11 @@ def post_session(request):
     if request.method != "POST":
         return JsonResponse(
             data={
-                'status': 'failed',
+                "status": "failed",
                 "error": f"Invalid request method. request is "
-                f"{request.method}. But should be POST."
+                f"{request.method}. But should be POST.",
             },
-            status=400
+            status=400,
         )
     post_data = json.loads(request.body)
     logger.info(f"POST session request: {post_data}")
@@ -47,8 +47,7 @@ def post_session(request):
     tasks.make_decision.delay(
         decision_instance.pk,
     )
-    logger.info("passed decision instance to the "
-                "internal authorization service ")
+    logger.info("passed decision instance to the " "internal authorization service ")
 
     return JsonResponse(
         {
