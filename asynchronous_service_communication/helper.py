@@ -4,7 +4,10 @@ from asynchronous_service_communication import constant
 
 
 ALLOWED_CHARACTERS_FOR_DRIVER_TOKEN = (
-    "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "abcdefghijklmnopqrstuvwxyz" "0123456789" "-._~"
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ" 
+    "abcdefghijklmnopqrstuvwxyz" 
+    "0123456789" 
+    "-._~"
 )
 
 
