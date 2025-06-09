@@ -1,5 +1,10 @@
 # asynchronous-service-communication 
 
+## Task to implement
+![](./taskGivenToMe1.png)
+![](./taskGivenToMe2.png)
+
+
 service_name=webservice/celery/command
 
 celery run:
