@@ -11,7 +11,7 @@ The solution is written in python3 (django). Main parts are
    file `asynchronous_service_communication/views.py`). It works as follows: 
    - Receives request
    - validates input 
-   - save the request in the database
+   - save the request in the `sqlite` database
    - push message (the primary key of the row just savaed) in `redis` for the 
      `celery` worker 
    - immediately responds with an acknowledgement that request is received 
