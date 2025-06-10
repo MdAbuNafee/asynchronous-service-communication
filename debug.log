@@ -390,3 +390,13 @@ Bad Request: /charge_point/session/
 Bad Request: /charge_point/session/
 Bad Request: /charge_point/session/
 Bad Request: /charge_point/session/
+"POST /charge_point/session/ HTTP/1.1" 200 133
+Watching for file changes with StatReloader
+"POST /charge_point/session/ HTTP/1.1" 200 133
+/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/asynchronous_service_communication/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /charge_point/session/ HTTP/1.1" 200 133
+/Users/nafee.zahid/Desktop/rootForHardDisk/personal/Career/recruitmentsInDifferentCompanies/chargePoint/asynchronous-service-communication/asynchronous_service_communication/settings.py changed, reloading.
+2025-06-10 07:55:00,443 [INFO] Watching for file changes with StatReloader
+2025-06-10 07:55:08,424 [INFO] "POST /charge_point/session/ HTTP/1.1" 200 133
+2025-06-10 07:55:51,386 [INFO] "POST /charge_point/session/ HTTP/1.1" 200 133

@@ -133,30 +133,41 @@ CELERY_BROKER_URL = "redis://localhost:6379/0"
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
+    'formatters': {
+      'timestamp': {
+          'format': '{asctime} [{levelname}] {message}',
+          'style': '{',
+      },
+    },
     "handlers": {
         "file": {
             "level": "INFO",
             "class": "logging.FileHandler",
             "filename": "debug.log",
+            "formatter": "timestamp",
         },
         "console": {
             "level": "INFO",
             "class": "logging.StreamHandler",
+            "formatter": "timestamp",
         },
         "webservice_file": {
             "level": "INFO",
             "class": "logging.FileHandler",
             "filename": "webservice.log",
+            "formatter": "timestamp",
         },
         "celery_file": {
             "level": "INFO",
             "class": "logging.FileHandler",
             "filename": "celery.log",
+            "formatter": "timestamp",
         },
         "command_file": {
             "level": "INFO",
             "class": "logging.FileHandler",
             "filename": "command.log",
+            "formatter": "timestamp",
         },
     },
     "loggers": {

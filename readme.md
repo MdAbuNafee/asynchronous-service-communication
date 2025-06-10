@@ -11,7 +11,7 @@ The solution is written in python3 (django). Main parts are
    file `asynchronous_service_communication/views.py`). It works as follows: 
    - Receives request
    - validates input 
-   - save the request in the `sqlite` database
+   - save the request in the database
    - push message (the primary key of the row just savaed) in `redis` for the 
      `celery` worker 
    - immediately responds with an acknowledgement that request is received 
@@ -34,6 +34,10 @@ The solution is written in python3 (django). Main parts are
      - save the request in database
      - Send a callback to the client informing the decision
 
+# Database used
+
+`SQLite` database is used for this solution. It's built in django and no 
+need of any extra installation.
 
 # How to run it 
 
@@ -109,10 +113,24 @@ FAILED (failures=1)
 
 ```
 
+# How to run the main program
+
+## How to run the django webserver
+
+Please go to root folder of this project.
+
+Then run in terminal
+```
+service_name=webservice python3 manage.py runserver
+```
+
+It would start running the webserver. And you would be able to see the logs 
+both in console and in the file named `webservice.log`. 
 
 
 
-service_name=webservice/celery/command
+
+/celery/command
 
 celery run:
 celery -A asynchronous_service_communication worker --loglevel=info
@@ -122,7 +140,6 @@ webhook link to receive the callback:
 https://webhook.site/a02530e4-62e6-433b-ae31-d1392e823f12
 
 
-python3 manage.py runserver
 
 
 python3 manage.py give_decision_after_timeout
