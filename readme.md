@@ -313,15 +313,16 @@ decision_taken_by = DecisionTakenByTypes.INTERNAL_AUTHORIZATION_SERVICE,
 # Scaling considerations
 
 We may face a lot of requests coming at the same time and our server can't 
-process all the requests. Then we need to identify the bottleneck and take following actions:  
+process all the requests. Then we need to identify the bottleneck. Based on 
+the bottleneck component we need to take following actions:  
 
-1. If we find out our web service server is the bottleneck
+1. `Web service server` is the bottleneck:
    - Scaling out our web service server horizontally i.e. employ more 
       services there and employing load balancer before these
-2. If we find our message queue is the bottleneck
+2. `Message Queue` is the bottleneck:
    - Increasing queue's capacity
    - Implementing features like message partitioning
-3. If we find our worker / consumer is the bottleneck
+3. `Worker` / `Consumer` is the bottleneck:
    - Scaling out multiple consumers / workers
-4. If we find our database is the bottleneck
-   - We can employ multiple databases (So a kind of sharding strategy there)
+4. `Database` is the bottleneck:
+   - Employ multiple databases (So a kind of sharding strategy there)
