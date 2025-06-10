@@ -326,3 +326,4 @@ the bottleneck component we need to take following actions:
    - Scaling out multiple consumers / workers
 4. `Database` is the bottleneck:
    - Employ multiple databases (So a kind of sharding strategy there)
+     - Then use (database number, primary key) instead of only primary key
