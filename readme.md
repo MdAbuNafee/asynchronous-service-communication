@@ -4,7 +4,14 @@
 ![](./taskGivenToMe1.png)
 ![](./taskGivenToMe2.png)
 
+
+
 # Brief overview of the solution
+
+## Diagram about the solution
+![](./diagramAboutSolution.jpg)
+
+## Note about the solution
 
 The solution is written in python3 (django). Main parts are
 1. API controller: a `django` web service. For details please check the 
@@ -60,7 +67,8 @@ If redis is not installed, we need to install redis. Please follow [the
 link](https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-redis/) for redis installation.
 
 ### verifying redis installation
-Once Redis is running, we should be able to get back a `PONG` if you send a 
+Once Redis is installed and running, we should be able to get back a `PONG` 
+if we send a 
 `ping` to `redis-cli` in terminal
 ```
 $ redis-cli ping
@@ -164,7 +172,7 @@ The request body must be in JSON format and include the following parameters:
 }
 ```
 
-For callback request you can give an url from any webiste providing free 
+For callback request we can give an url from any webiste providing free 
 webhook like [webhook](https://webhook.site/)
 
 
@@ -213,11 +221,11 @@ Then in terminal run
 service_name=command TIMEOUT_IN_SECONDS=10 CRON_JOB_SLEEP_TIME_IN_SECONDS=30 python3 manage.py give_decision_after_timeout service_name=command python3 manage.py give_decision_after_timeout
 ```
 
-You can give your preferred value for the `TIMEOUT_IN_SECONDS` and 
+We can give our preferred value for the `TIMEOUT_IN_SECONDS` and 
 `CRON_JOB_SLEEP_TIME_IN_SECONDS`.
 
 It should start our cron job and start printing the logs in console and in 
-the file 'command.log'.
+the file `command.log`.
 
 ## Check the database
 
@@ -311,4 +319,18 @@ decision_taken_by = DecisionTakenByTypes.INTERNAL_AUTHORIZATION_SERVICE,
 
 
 
+# Scaling considerations
 
+We may face a lot of requests coming at the same time and our server can't 
+process all the requests. Then we need to identify the bottleneck and take following actions:  
+
+1. If we find out our web service server is the bottleneck
+   2. Scaling out our web service server horizontally i.e. employ more 
+      services there and employing load balancer before these
+3. If we find our message queue is the bottleneck
+   4. Increasing queue's capacity
+   5. Implementing features like message partitioning
+5. If we find our worker / consumer is the bottleneck
+   6. Scaling out multiple consumers / workers
+7. If we find our database is the bottleneck
+   8. We can employ multiple databases (So a kind of sharding strategy there)

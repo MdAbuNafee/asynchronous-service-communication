@@ -7277,3 +7277,1760 @@ starting of cron job
 2025-06-10 11:31:21,809 [INFO] decision_instance_list: <QuerySet []>
 2025-06-10 11:31:21,810 [INFO] end of cron job
 2025-06-10 11:31:21,810 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:31:51,815 [INFO] 
+
+starting of cron job
+2025-06-10 11:31:51,815 [INFO] target_time: 2025-06-10 11:31:41.815299+00:00
+2025-06-10 11:31:51,816 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:31:51,817 [INFO] end of cron job
+2025-06-10 11:31:51,817 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:32:21,822 [INFO] 
+
+starting of cron job
+2025-06-10 11:32:21,823 [INFO] target_time: 2025-06-10 11:32:11.823318+00:00
+2025-06-10 11:32:21,828 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:32:21,829 [INFO] end of cron job
+2025-06-10 11:32:21,829 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:32:51,836 [INFO] 
+
+starting of cron job
+2025-06-10 11:32:51,837 [INFO] target_time: 2025-06-10 11:32:41.837428+00:00
+2025-06-10 11:32:51,840 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:32:51,841 [INFO] end of cron job
+2025-06-10 11:32:51,841 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:33:21,846 [INFO] 
+
+starting of cron job
+2025-06-10 11:33:21,853 [INFO] target_time: 2025-06-10 11:33:11.853529+00:00
+2025-06-10 11:33:21,856 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:33:21,857 [INFO] end of cron job
+2025-06-10 11:33:21,857 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:33:51,857 [INFO] 
+
+starting of cron job
+2025-06-10 11:33:51,858 [INFO] target_time: 2025-06-10 11:33:41.858174+00:00
+2025-06-10 11:33:51,858 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:33:51,859 [INFO] end of cron job
+2025-06-10 11:33:51,859 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:34:21,864 [INFO] 
+
+starting of cron job
+2025-06-10 11:34:21,866 [INFO] target_time: 2025-06-10 11:34:11.866454+00:00
+2025-06-10 11:34:21,869 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:34:21,870 [INFO] end of cron job
+2025-06-10 11:34:21,870 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:34:51,875 [INFO] 
+
+starting of cron job
+2025-06-10 11:34:51,877 [INFO] target_time: 2025-06-10 11:34:41.877110+00:00
+2025-06-10 11:34:51,880 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:34:51,881 [INFO] end of cron job
+2025-06-10 11:34:51,881 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:35:21,887 [INFO] 
+
+starting of cron job
+2025-06-10 11:35:21,888 [INFO] target_time: 2025-06-10 11:35:11.888342+00:00
+2025-06-10 11:35:21,890 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:35:21,893 [INFO] end of cron job
+2025-06-10 11:35:21,893 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:35:51,898 [INFO] 
+
+starting of cron job
+2025-06-10 11:35:51,900 [INFO] target_time: 2025-06-10 11:35:41.900274+00:00
+2025-06-10 11:35:51,903 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:35:51,904 [INFO] end of cron job
+2025-06-10 11:35:51,904 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:36:21,909 [INFO] 
+
+starting of cron job
+2025-06-10 11:36:21,909 [INFO] target_time: 2025-06-10 11:36:11.909740+00:00
+2025-06-10 11:36:21,911 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:36:21,911 [INFO] end of cron job
+2025-06-10 11:36:21,911 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:36:51,917 [INFO] 
+
+starting of cron job
+2025-06-10 11:36:51,919 [INFO] target_time: 2025-06-10 11:36:41.919134+00:00
+2025-06-10 11:36:51,921 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:36:51,922 [INFO] end of cron job
+2025-06-10 11:36:51,922 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:37:21,927 [INFO] 
+
+starting of cron job
+2025-06-10 11:37:21,928 [INFO] target_time: 2025-06-10 11:37:11.928196+00:00
+2025-06-10 11:37:21,931 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:37:21,932 [INFO] end of cron job
+2025-06-10 11:37:21,932 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:37:51,939 [INFO] 
+
+starting of cron job
+2025-06-10 11:37:51,941 [INFO] target_time: 2025-06-10 11:37:41.940956+00:00
+2025-06-10 11:37:51,944 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:37:51,945 [INFO] end of cron job
+2025-06-10 11:37:51,945 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:38:21,950 [INFO] 
+
+starting of cron job
+2025-06-10 11:38:21,951 [INFO] target_time: 2025-06-10 11:38:11.951204+00:00
+2025-06-10 11:38:21,958 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:38:21,959 [INFO] end of cron job
+2025-06-10 11:38:21,959 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:38:51,961 [INFO] 
+
+starting of cron job
+2025-06-10 11:38:51,962 [INFO] target_time: 2025-06-10 11:38:41.962095+00:00
+2025-06-10 11:38:51,965 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:38:51,966 [INFO] end of cron job
+2025-06-10 11:38:51,966 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:39:21,971 [INFO] 
+
+starting of cron job
+2025-06-10 11:39:21,971 [INFO] target_time: 2025-06-10 11:39:11.971753+00:00
+2025-06-10 11:39:21,972 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:39:21,973 [INFO] end of cron job
+2025-06-10 11:39:21,973 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:39:51,977 [INFO] 
+
+starting of cron job
+2025-06-10 11:39:51,980 [INFO] target_time: 2025-06-10 11:39:41.979989+00:00
+2025-06-10 11:39:51,982 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:39:51,982 [INFO] end of cron job
+2025-06-10 11:39:51,982 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:40:21,983 [INFO] 
+
+starting of cron job
+2025-06-10 11:40:21,984 [INFO] target_time: 2025-06-10 11:40:11.984609+00:00
+2025-06-10 11:40:21,988 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:40:21,989 [INFO] end of cron job
+2025-06-10 11:40:21,989 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:40:51,994 [INFO] 
+
+starting of cron job
+2025-06-10 11:40:51,995 [INFO] target_time: 2025-06-10 11:40:41.995821+00:00
+2025-06-10 11:40:51,998 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:40:51,999 [INFO] end of cron job
+2025-06-10 11:40:51,999 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:41:22,004 [INFO] 
+
+starting of cron job
+2025-06-10 11:41:22,005 [INFO] target_time: 2025-06-10 11:41:12.005778+00:00
+2025-06-10 11:41:22,011 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:41:22,011 [INFO] end of cron job
+2025-06-10 11:41:22,012 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:41:52,015 [INFO] 
+
+starting of cron job
+2025-06-10 11:41:52,019 [INFO] target_time: 2025-06-10 11:41:42.019028+00:00
+2025-06-10 11:41:52,021 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:41:52,022 [INFO] end of cron job
+2025-06-10 11:41:52,022 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:42:22,027 [INFO] 
+
+starting of cron job
+2025-06-10 11:42:22,029 [INFO] target_time: 2025-06-10 11:42:12.029786+00:00
+2025-06-10 11:42:22,032 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:42:22,033 [INFO] end of cron job
+2025-06-10 11:42:22,033 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:42:52,039 [INFO] 
+
+starting of cron job
+2025-06-10 11:42:52,040 [INFO] target_time: 2025-06-10 11:42:42.040640+00:00
+2025-06-10 11:42:52,043 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:42:52,044 [INFO] end of cron job
+2025-06-10 11:42:52,044 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:43:22,048 [INFO] 
+
+starting of cron job
+2025-06-10 11:43:22,049 [INFO] target_time: 2025-06-10 11:43:12.049310+00:00
+2025-06-10 11:43:22,051 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:43:22,051 [INFO] end of cron job
+2025-06-10 11:43:22,051 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:43:52,052 [INFO] 
+
+starting of cron job
+2025-06-10 11:43:52,053 [INFO] target_time: 2025-06-10 11:43:42.053763+00:00
+2025-06-10 11:43:52,058 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:43:52,059 [INFO] end of cron job
+2025-06-10 11:43:52,059 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:44:22,064 [INFO] 
+
+starting of cron job
+2025-06-10 11:44:22,065 [INFO] target_time: 2025-06-10 11:44:12.065375+00:00
+2025-06-10 11:44:22,067 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:44:22,068 [INFO] end of cron job
+2025-06-10 11:44:22,068 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:44:52,073 [INFO] 
+
+starting of cron job
+2025-06-10 11:44:52,074 [INFO] target_time: 2025-06-10 11:44:42.074049+00:00
+2025-06-10 11:44:52,077 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:44:52,078 [INFO] end of cron job
+2025-06-10 11:44:52,078 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:45:22,083 [INFO] 
+
+starting of cron job
+2025-06-10 11:45:22,084 [INFO] target_time: 2025-06-10 11:45:12.084700+00:00
+2025-06-10 11:45:22,088 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:45:22,088 [INFO] end of cron job
+2025-06-10 11:45:22,089 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:45:52,091 [INFO] 
+
+starting of cron job
+2025-06-10 11:45:52,092 [INFO] target_time: 2025-06-10 11:45:42.092285+00:00
+2025-06-10 11:45:52,100 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:45:52,101 [INFO] end of cron job
+2025-06-10 11:45:52,101 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:46:22,106 [INFO] 
+
+starting of cron job
+2025-06-10 11:46:22,107 [INFO] target_time: 2025-06-10 11:46:12.107797+00:00
+2025-06-10 11:46:22,111 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:46:22,112 [INFO] end of cron job
+2025-06-10 11:46:22,112 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:46:52,117 [INFO] 
+
+starting of cron job
+2025-06-10 11:46:52,118 [INFO] target_time: 2025-06-10 11:46:42.117963+00:00
+2025-06-10 11:46:52,121 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:46:52,122 [INFO] end of cron job
+2025-06-10 11:46:52,122 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:47:22,125 [INFO] 
+
+starting of cron job
+2025-06-10 11:47:22,126 [INFO] target_time: 2025-06-10 11:47:12.126516+00:00
+2025-06-10 11:47:22,137 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:47:22,137 [INFO] end of cron job
+2025-06-10 11:47:22,138 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:47:52,141 [INFO] 
+
+starting of cron job
+2025-06-10 11:47:52,141 [INFO] target_time: 2025-06-10 11:47:42.141813+00:00
+2025-06-10 11:47:52,145 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:47:52,146 [INFO] end of cron job
+2025-06-10 11:47:52,146 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:48:22,151 [INFO] 
+
+starting of cron job
+2025-06-10 11:48:22,152 [INFO] target_time: 2025-06-10 11:48:12.152178+00:00
+2025-06-10 11:48:22,153 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:48:22,154 [INFO] end of cron job
+2025-06-10 11:48:22,154 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:48:52,157 [INFO] 
+
+starting of cron job
+2025-06-10 11:48:52,158 [INFO] target_time: 2025-06-10 11:48:42.158212+00:00
+2025-06-10 11:48:52,161 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:48:52,162 [INFO] end of cron job
+2025-06-10 11:48:52,162 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:49:22,167 [INFO] 
+
+starting of cron job
+2025-06-10 11:49:22,168 [INFO] target_time: 2025-06-10 11:49:12.168283+00:00
+2025-06-10 11:49:22,171 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:49:22,172 [INFO] end of cron job
+2025-06-10 11:49:22,172 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:49:52,178 [INFO] 
+
+starting of cron job
+2025-06-10 11:49:52,180 [INFO] target_time: 2025-06-10 11:49:42.180222+00:00
+2025-06-10 11:49:52,183 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:49:52,183 [INFO] end of cron job
+2025-06-10 11:49:52,184 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:50:22,189 [INFO] 
+
+starting of cron job
+2025-06-10 11:50:22,190 [INFO] target_time: 2025-06-10 11:50:12.189940+00:00
+2025-06-10 11:50:22,195 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:50:22,196 [INFO] end of cron job
+2025-06-10 11:50:22,196 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:50:52,197 [INFO] 
+
+starting of cron job
+2025-06-10 11:50:52,198 [INFO] target_time: 2025-06-10 11:50:42.198670+00:00
+2025-06-10 11:50:52,201 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:50:52,202 [INFO] end of cron job
+2025-06-10 11:50:52,202 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:51:22,206 [INFO] 
+
+starting of cron job
+2025-06-10 11:51:22,208 [INFO] target_time: 2025-06-10 11:51:12.208535+00:00
+2025-06-10 11:51:22,211 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:51:22,211 [INFO] end of cron job
+2025-06-10 11:51:22,212 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:51:52,216 [INFO] 
+
+starting of cron job
+2025-06-10 11:51:52,217 [INFO] target_time: 2025-06-10 11:51:42.217817+00:00
+2025-06-10 11:51:52,221 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:51:52,222 [INFO] end of cron job
+2025-06-10 11:51:52,223 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:52:22,227 [INFO] 
+
+starting of cron job
+2025-06-10 11:52:22,228 [INFO] target_time: 2025-06-10 11:52:12.228067+00:00
+2025-06-10 11:52:22,230 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:52:22,231 [INFO] end of cron job
+2025-06-10 11:52:22,231 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:52:52,234 [INFO] 
+
+starting of cron job
+2025-06-10 11:52:52,234 [INFO] target_time: 2025-06-10 11:52:42.234756+00:00
+2025-06-10 11:52:52,237 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:52:52,238 [INFO] end of cron job
+2025-06-10 11:52:52,238 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:53:22,243 [INFO] 
+
+starting of cron job
+2025-06-10 11:53:22,245 [INFO] target_time: 2025-06-10 11:53:12.245213+00:00
+2025-06-10 11:53:22,249 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:53:22,250 [INFO] end of cron job
+2025-06-10 11:53:22,250 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:53:52,254 [INFO] 
+
+starting of cron job
+2025-06-10 11:53:52,255 [INFO] target_time: 2025-06-10 11:53:42.255412+00:00
+2025-06-10 11:53:52,259 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:53:52,260 [INFO] end of cron job
+2025-06-10 11:53:52,260 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:54:22,265 [INFO] 
+
+starting of cron job
+2025-06-10 11:54:22,267 [INFO] target_time: 2025-06-10 11:54:12.267286+00:00
+2025-06-10 11:54:22,269 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:54:22,270 [INFO] end of cron job
+2025-06-10 11:54:22,270 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:54:52,275 [INFO] 
+
+starting of cron job
+2025-06-10 11:54:52,276 [INFO] target_time: 2025-06-10 11:54:42.276759+00:00
+2025-06-10 11:54:52,280 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:54:52,281 [INFO] end of cron job
+2025-06-10 11:54:52,281 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:55:22,286 [INFO] 
+
+starting of cron job
+2025-06-10 11:55:22,287 [INFO] target_time: 2025-06-10 11:55:12.287573+00:00
+2025-06-10 11:55:22,292 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:55:22,293 [INFO] end of cron job
+2025-06-10 11:55:22,293 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:55:52,296 [INFO] 
+
+starting of cron job
+2025-06-10 11:55:52,296 [INFO] target_time: 2025-06-10 11:55:42.296725+00:00
+2025-06-10 11:55:52,299 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:55:52,300 [INFO] end of cron job
+2025-06-10 11:55:52,300 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:56:22,305 [INFO] 
+
+starting of cron job
+2025-06-10 11:56:22,306 [INFO] target_time: 2025-06-10 11:56:12.305972+00:00
+2025-06-10 11:56:22,307 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:56:22,307 [INFO] end of cron job
+2025-06-10 11:56:22,307 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:56:52,329 [INFO] 
+
+starting of cron job
+2025-06-10 11:56:52,330 [INFO] target_time: 2025-06-10 11:56:42.330090+00:00
+2025-06-10 11:56:52,331 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:56:52,332 [INFO] end of cron job
+2025-06-10 11:56:52,332 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:57:22,352 [INFO] 
+
+starting of cron job
+2025-06-10 11:57:22,353 [INFO] target_time: 2025-06-10 11:57:12.352911+00:00
+2025-06-10 11:57:22,355 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:57:22,356 [INFO] end of cron job
+2025-06-10 11:57:22,357 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:57:52,364 [INFO] 
+
+starting of cron job
+2025-06-10 11:57:52,365 [INFO] target_time: 2025-06-10 11:57:42.365298+00:00
+2025-06-10 11:57:52,369 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:57:52,370 [INFO] end of cron job
+2025-06-10 11:57:52,370 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:58:22,377 [INFO] 
+
+starting of cron job
+2025-06-10 11:58:22,379 [INFO] target_time: 2025-06-10 11:58:12.379679+00:00
+2025-06-10 11:58:22,383 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:58:22,384 [INFO] end of cron job
+2025-06-10 11:58:22,384 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:58:52,390 [INFO] 
+
+starting of cron job
+2025-06-10 11:58:52,391 [INFO] target_time: 2025-06-10 11:58:42.391057+00:00
+2025-06-10 11:58:52,399 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:58:52,400 [INFO] end of cron job
+2025-06-10 11:58:52,400 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:59:22,405 [INFO] 
+
+starting of cron job
+2025-06-10 11:59:22,406 [INFO] target_time: 2025-06-10 11:59:12.406608+00:00
+2025-06-10 11:59:22,412 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:59:22,413 [INFO] end of cron job
+2025-06-10 11:59:22,413 [INFO] Sleeping for : 30 seconds
+2025-06-10 11:59:52,419 [INFO] 
+
+starting of cron job
+2025-06-10 11:59:52,422 [INFO] target_time: 2025-06-10 11:59:42.421640+00:00
+2025-06-10 11:59:52,425 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 11:59:52,425 [INFO] end of cron job
+2025-06-10 11:59:52,426 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:00:22,429 [INFO] 
+
+starting of cron job
+2025-06-10 12:00:22,430 [INFO] target_time: 2025-06-10 12:00:12.430778+00:00
+2025-06-10 12:00:22,433 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:00:22,434 [INFO] end of cron job
+2025-06-10 12:00:22,435 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:00:52,440 [INFO] 
+
+starting of cron job
+2025-06-10 12:00:52,441 [INFO] target_time: 2025-06-10 12:00:42.441434+00:00
+2025-06-10 12:00:52,444 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:00:52,445 [INFO] end of cron job
+2025-06-10 12:00:52,445 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:01:22,452 [INFO] 
+
+starting of cron job
+2025-06-10 12:01:22,453 [INFO] target_time: 2025-06-10 12:01:12.453057+00:00
+2025-06-10 12:01:22,456 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:01:22,456 [INFO] end of cron job
+2025-06-10 12:01:22,457 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:01:52,462 [INFO] 
+
+starting of cron job
+2025-06-10 12:01:52,463 [INFO] target_time: 2025-06-10 12:01:42.463257+00:00
+2025-06-10 12:01:52,467 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:01:52,468 [INFO] end of cron job
+2025-06-10 12:01:52,468 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:02:22,474 [INFO] 
+
+starting of cron job
+2025-06-10 12:02:22,475 [INFO] target_time: 2025-06-10 12:02:12.475931+00:00
+2025-06-10 12:02:22,478 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:02:22,478 [INFO] end of cron job
+2025-06-10 12:02:22,478 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:02:52,488 [INFO] 
+
+starting of cron job
+2025-06-10 12:02:52,490 [INFO] target_time: 2025-06-10 12:02:42.490394+00:00
+2025-06-10 12:02:52,491 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:02:52,492 [INFO] end of cron job
+2025-06-10 12:02:52,492 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:03:22,503 [INFO] 
+
+starting of cron job
+2025-06-10 12:03:22,503 [INFO] target_time: 2025-06-10 12:03:12.503819+00:00
+2025-06-10 12:03:22,505 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:03:22,506 [INFO] end of cron job
+2025-06-10 12:03:22,506 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:03:52,515 [INFO] 
+
+starting of cron job
+2025-06-10 12:03:52,515 [INFO] target_time: 2025-06-10 12:03:42.515521+00:00
+2025-06-10 12:03:52,517 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:03:52,517 [INFO] end of cron job
+2025-06-10 12:03:52,517 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:04:22,519 [INFO] 
+
+starting of cron job
+2025-06-10 12:04:22,522 [INFO] target_time: 2025-06-10 12:04:12.522250+00:00
+2025-06-10 12:04:22,524 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:04:22,525 [INFO] end of cron job
+2025-06-10 12:04:22,525 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:04:52,535 [INFO] 
+
+starting of cron job
+2025-06-10 12:04:52,536 [INFO] target_time: 2025-06-10 12:04:42.536844+00:00
+2025-06-10 12:04:52,538 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:04:52,539 [INFO] end of cron job
+2025-06-10 12:04:52,539 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:05:22,548 [INFO] 
+
+starting of cron job
+2025-06-10 12:05:22,548 [INFO] target_time: 2025-06-10 12:05:12.548851+00:00
+2025-06-10 12:05:22,551 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:05:22,551 [INFO] end of cron job
+2025-06-10 12:05:22,552 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:05:52,560 [INFO] 
+
+starting of cron job
+2025-06-10 12:05:52,560 [INFO] target_time: 2025-06-10 12:05:42.560327+00:00
+2025-06-10 12:05:52,564 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:05:52,565 [INFO] end of cron job
+2025-06-10 12:05:52,565 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:06:22,575 [INFO] 
+
+starting of cron job
+2025-06-10 12:06:22,577 [INFO] target_time: 2025-06-10 12:06:12.576366+00:00
+2025-06-10 12:06:22,580 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:06:22,581 [INFO] end of cron job
+2025-06-10 12:06:22,581 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:06:52,583 [INFO] 
+
+starting of cron job
+2025-06-10 12:06:52,584 [INFO] target_time: 2025-06-10 12:06:42.584131+00:00
+2025-06-10 12:06:52,587 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:06:52,588 [INFO] end of cron job
+2025-06-10 12:06:52,588 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:07:22,598 [INFO] 
+
+starting of cron job
+2025-06-10 12:07:22,601 [INFO] target_time: 2025-06-10 12:07:12.601007+00:00
+2025-06-10 12:07:22,602 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:07:22,603 [INFO] end of cron job
+2025-06-10 12:07:22,603 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:07:52,610 [INFO] 
+
+starting of cron job
+2025-06-10 12:07:52,611 [INFO] target_time: 2025-06-10 12:07:42.611412+00:00
+2025-06-10 12:07:52,614 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:07:52,614 [INFO] end of cron job
+2025-06-10 12:07:52,614 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:08:22,620 [INFO] 
+
+starting of cron job
+2025-06-10 12:08:22,620 [INFO] target_time: 2025-06-10 12:08:12.620540+00:00
+2025-06-10 12:08:22,622 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:08:22,623 [INFO] end of cron job
+2025-06-10 12:08:22,623 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:08:52,627 [INFO] 
+
+starting of cron job
+2025-06-10 12:08:52,628 [INFO] target_time: 2025-06-10 12:08:42.628426+00:00
+2025-06-10 12:08:52,630 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:08:52,631 [INFO] end of cron job
+2025-06-10 12:08:52,631 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:09:22,637 [INFO] 
+
+starting of cron job
+2025-06-10 12:09:22,639 [INFO] target_time: 2025-06-10 12:09:12.639062+00:00
+2025-06-10 12:09:22,641 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:09:22,642 [INFO] end of cron job
+2025-06-10 12:09:22,642 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:09:52,646 [INFO] 
+
+starting of cron job
+2025-06-10 12:09:52,647 [INFO] target_time: 2025-06-10 12:09:42.647694+00:00
+2025-06-10 12:09:52,649 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:09:52,650 [INFO] end of cron job
+2025-06-10 12:09:52,650 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:10:22,655 [INFO] 
+
+starting of cron job
+2025-06-10 12:10:22,656 [INFO] target_time: 2025-06-10 12:10:12.656452+00:00
+2025-06-10 12:10:22,659 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:10:22,660 [INFO] end of cron job
+2025-06-10 12:10:22,660 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:10:52,666 [INFO] 
+
+starting of cron job
+2025-06-10 12:10:52,666 [INFO] target_time: 2025-06-10 12:10:42.666823+00:00
+2025-06-10 12:10:52,669 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:10:52,670 [INFO] end of cron job
+2025-06-10 12:10:52,670 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:11:22,676 [INFO] 
+
+starting of cron job
+2025-06-10 12:11:22,677 [INFO] target_time: 2025-06-10 12:11:12.677566+00:00
+2025-06-10 12:11:22,680 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:11:22,681 [INFO] end of cron job
+2025-06-10 12:11:22,681 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:11:52,687 [INFO] 
+
+starting of cron job
+2025-06-10 12:11:52,688 [INFO] target_time: 2025-06-10 12:11:42.688441+00:00
+2025-06-10 12:11:52,691 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:11:52,692 [INFO] end of cron job
+2025-06-10 12:11:52,692 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:12:22,696 [INFO] 
+
+starting of cron job
+2025-06-10 12:12:22,697 [INFO] target_time: 2025-06-10 12:12:12.697045+00:00
+2025-06-10 12:12:22,699 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:12:22,700 [INFO] end of cron job
+2025-06-10 12:12:22,701 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:12:52,706 [INFO] 
+
+starting of cron job
+2025-06-10 12:12:52,707 [INFO] target_time: 2025-06-10 12:12:42.707283+00:00
+2025-06-10 12:12:52,711 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:12:52,712 [INFO] end of cron job
+2025-06-10 12:12:52,712 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:13:22,718 [INFO] 
+
+starting of cron job
+2025-06-10 12:13:22,719 [INFO] target_time: 2025-06-10 12:13:12.718791+00:00
+2025-06-10 12:13:22,723 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:13:22,725 [INFO] end of cron job
+2025-06-10 12:13:22,725 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:13:52,730 [INFO] 
+
+starting of cron job
+2025-06-10 12:13:52,739 [INFO] target_time: 2025-06-10 12:13:42.739362+00:00
+2025-06-10 12:13:52,742 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:13:52,742 [INFO] end of cron job
+2025-06-10 12:13:52,742 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:14:22,748 [INFO] 
+
+starting of cron job
+2025-06-10 12:14:22,749 [INFO] target_time: 2025-06-10 12:14:12.749306+00:00
+2025-06-10 12:14:22,752 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:14:22,753 [INFO] end of cron job
+2025-06-10 12:14:22,753 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:14:52,759 [INFO] 
+
+starting of cron job
+2025-06-10 12:14:52,761 [INFO] target_time: 2025-06-10 12:14:42.761075+00:00
+2025-06-10 12:14:52,764 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:14:52,764 [INFO] end of cron job
+2025-06-10 12:14:52,765 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:15:22,770 [INFO] 
+
+starting of cron job
+2025-06-10 12:15:22,777 [INFO] target_time: 2025-06-10 12:15:12.777605+00:00
+2025-06-10 12:15:22,780 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:15:22,781 [INFO] end of cron job
+2025-06-10 12:15:22,781 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:15:52,787 [INFO] 
+
+starting of cron job
+2025-06-10 12:15:52,788 [INFO] target_time: 2025-06-10 12:15:42.787983+00:00
+2025-06-10 12:15:52,792 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:15:52,792 [INFO] end of cron job
+2025-06-10 12:15:52,792 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:16:22,800 [INFO] 
+
+starting of cron job
+2025-06-10 12:16:22,801 [INFO] target_time: 2025-06-10 12:16:12.801712+00:00
+2025-06-10 12:16:22,803 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:16:22,804 [INFO] end of cron job
+2025-06-10 12:16:22,804 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:16:52,809 [INFO] 
+
+starting of cron job
+2025-06-10 12:16:52,810 [INFO] target_time: 2025-06-10 12:16:42.810612+00:00
+2025-06-10 12:16:52,813 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:16:52,815 [INFO] end of cron job
+2025-06-10 12:16:52,815 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:33:29,094 [INFO] 
+
+starting of cron job
+2025-06-10 12:33:29,096 [INFO] target_time: 2025-06-10 12:33:19.096736+00:00
+2025-06-10 12:33:29,099 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:33:29,100 [INFO] end of cron job
+2025-06-10 12:33:29,101 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:33:59,109 [INFO] 
+
+starting of cron job
+2025-06-10 12:33:59,110 [INFO] target_time: 2025-06-10 12:33:49.110572+00:00
+2025-06-10 12:33:59,112 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:33:59,112 [INFO] end of cron job
+2025-06-10 12:33:59,112 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:34:29,121 [INFO] 
+
+starting of cron job
+2025-06-10 12:34:29,121 [INFO] target_time: 2025-06-10 12:34:19.121874+00:00
+2025-06-10 12:34:29,123 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:34:29,124 [INFO] end of cron job
+2025-06-10 12:34:29,124 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:34:59,132 [INFO] 
+
+starting of cron job
+2025-06-10 12:34:59,133 [INFO] target_time: 2025-06-10 12:34:49.133091+00:00
+2025-06-10 12:34:59,134 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:34:59,135 [INFO] end of cron job
+2025-06-10 12:34:59,135 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:35:29,144 [INFO] 
+
+starting of cron job
+2025-06-10 12:35:29,144 [INFO] target_time: 2025-06-10 12:35:19.144596+00:00
+2025-06-10 12:35:29,146 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:35:29,147 [INFO] end of cron job
+2025-06-10 12:35:29,147 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:35:59,156 [INFO] 
+
+starting of cron job
+2025-06-10 12:35:59,157 [INFO] target_time: 2025-06-10 12:35:49.156998+00:00
+2025-06-10 12:35:59,158 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:35:59,159 [INFO] end of cron job
+2025-06-10 12:35:59,159 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:36:29,165 [INFO] 
+
+starting of cron job
+2025-06-10 12:36:29,165 [INFO] target_time: 2025-06-10 12:36:19.165668+00:00
+2025-06-10 12:36:29,167 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:36:29,167 [INFO] end of cron job
+2025-06-10 12:36:29,167 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:36:59,173 [INFO] 
+
+starting of cron job
+2025-06-10 12:36:59,174 [INFO] target_time: 2025-06-10 12:36:49.174003+00:00
+2025-06-10 12:36:59,175 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:36:59,176 [INFO] end of cron job
+2025-06-10 12:36:59,176 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:37:29,184 [INFO] 
+
+starting of cron job
+2025-06-10 12:37:29,185 [INFO] target_time: 2025-06-10 12:37:19.185243+00:00
+2025-06-10 12:37:29,189 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:37:29,190 [INFO] end of cron job
+2025-06-10 12:37:29,190 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:37:59,199 [INFO] 
+
+starting of cron job
+2025-06-10 12:37:59,201 [INFO] target_time: 2025-06-10 12:37:49.200902+00:00
+2025-06-10 12:37:59,205 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:37:59,205 [INFO] end of cron job
+2025-06-10 12:37:59,206 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:38:29,211 [INFO] 
+
+starting of cron job
+2025-06-10 12:38:29,212 [INFO] target_time: 2025-06-10 12:38:19.212764+00:00
+2025-06-10 12:38:29,216 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:38:29,217 [INFO] end of cron job
+2025-06-10 12:38:29,218 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:38:59,228 [INFO] 
+
+starting of cron job
+2025-06-10 12:38:59,229 [INFO] target_time: 2025-06-10 12:38:49.229415+00:00
+2025-06-10 12:38:59,234 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:38:59,235 [INFO] end of cron job
+2025-06-10 12:38:59,235 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:39:29,245 [INFO] 
+
+starting of cron job
+2025-06-10 12:39:29,246 [INFO] target_time: 2025-06-10 12:39:19.246494+00:00
+2025-06-10 12:39:29,249 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:39:29,251 [INFO] end of cron job
+2025-06-10 12:39:29,251 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:55:35,623 [INFO] 
+
+starting of cron job
+2025-06-10 12:55:35,624 [INFO] target_time: 2025-06-10 12:55:25.624195+00:00
+2025-06-10 12:55:35,628 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:55:35,629 [INFO] end of cron job
+2025-06-10 12:55:35,629 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:56:05,628 [INFO] 
+
+starting of cron job
+2025-06-10 12:56:05,630 [INFO] target_time: 2025-06-10 12:55:55.629966+00:00
+2025-06-10 12:56:05,633 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:56:05,634 [INFO] end of cron job
+2025-06-10 12:56:05,634 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:56:35,643 [INFO] 
+
+starting of cron job
+2025-06-10 12:56:35,644 [INFO] target_time: 2025-06-10 12:56:25.644078+00:00
+2025-06-10 12:56:35,648 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:56:35,649 [INFO] end of cron job
+2025-06-10 12:56:35,649 [INFO] Sleeping for : 30 seconds
+2025-06-10 12:57:05,659 [INFO] 
+
+starting of cron job
+2025-06-10 12:57:05,660 [INFO] target_time: 2025-06-10 12:56:55.660560+00:00
+2025-06-10 12:57:05,664 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 12:57:05,665 [INFO] end of cron job
+2025-06-10 12:57:05,666 [INFO] Sleeping for : 30 seconds
+2025-06-10 13:12:34,047 [INFO] 
+
+starting of cron job
+2025-06-10 13:12:34,047 [INFO] target_time: 2025-06-10 13:12:24.047543+00:00
+2025-06-10 13:12:34,048 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 13:12:34,049 [INFO] end of cron job
+2025-06-10 13:12:34,049 [INFO] Sleeping for : 30 seconds
+2025-06-10 13:13:04,076 [INFO] 
+
+starting of cron job
+2025-06-10 13:13:04,077 [INFO] target_time: 2025-06-10 13:12:54.077095+00:00
+2025-06-10 13:13:04,080 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 13:13:04,081 [INFO] end of cron job
+2025-06-10 13:13:04,081 [INFO] Sleeping for : 30 seconds
+2025-06-10 13:13:34,094 [INFO] 
+
+starting of cron job
+2025-06-10 13:13:34,095 [INFO] target_time: 2025-06-10 13:13:24.095400+00:00
+2025-06-10 13:13:34,099 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 13:13:34,100 [INFO] end of cron job
+2025-06-10 13:13:34,100 [INFO] Sleeping for : 30 seconds
+2025-06-10 13:14:04,111 [INFO] 
+
+starting of cron job
+2025-06-10 13:14:04,112 [INFO] target_time: 2025-06-10 13:13:54.112268+00:00
+2025-06-10 13:14:04,116 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 13:14:04,117 [INFO] end of cron job
+2025-06-10 13:14:04,117 [INFO] Sleeping for : 30 seconds
+2025-06-10 13:14:34,128 [INFO] 
+
+starting of cron job
+2025-06-10 13:14:34,129 [INFO] target_time: 2025-06-10 13:14:24.129211+00:00
+2025-06-10 13:14:34,133 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 13:14:34,134 [INFO] end of cron job
+2025-06-10 13:14:34,134 [INFO] Sleeping for : 30 seconds
+2025-06-10 13:30:50,620 [INFO] 
+
+starting of cron job
+2025-06-10 13:30:50,621 [INFO] target_time: 2025-06-10 13:30:40.621469+00:00
+2025-06-10 13:30:50,625 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 13:30:50,626 [INFO] end of cron job
+2025-06-10 13:30:50,626 [INFO] Sleeping for : 30 seconds
+2025-06-10 13:31:20,635 [INFO] 
+
+starting of cron job
+2025-06-10 13:31:20,637 [INFO] target_time: 2025-06-10 13:31:10.637495+00:00
+2025-06-10 13:31:20,640 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 13:31:20,640 [INFO] end of cron job
+2025-06-10 13:31:20,640 [INFO] Sleeping for : 30 seconds
+2025-06-10 13:31:50,650 [INFO] 
+
+starting of cron job
+2025-06-10 13:31:50,652 [INFO] target_time: 2025-06-10 13:31:40.652146+00:00
+2025-06-10 13:31:50,656 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 13:31:50,657 [INFO] end of cron job
+2025-06-10 13:31:50,657 [INFO] Sleeping for : 30 seconds
+2025-06-10 13:32:20,668 [INFO] 
+
+starting of cron job
+2025-06-10 13:32:20,671 [INFO] target_time: 2025-06-10 13:32:10.670971+00:00
+2025-06-10 13:32:20,674 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 13:32:20,675 [INFO] end of cron job
+2025-06-10 13:32:20,675 [INFO] Sleeping for : 30 seconds
+2025-06-10 13:48:47,720 [INFO] 
+
+starting of cron job
+2025-06-10 13:48:47,722 [INFO] target_time: 2025-06-10 13:48:37.722743+00:00
+2025-06-10 13:48:47,724 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 13:48:47,725 [INFO] end of cron job
+2025-06-10 13:48:47,725 [INFO] Sleeping for : 30 seconds
+2025-06-10 13:49:17,735 [INFO] 
+
+starting of cron job
+2025-06-10 13:49:17,736 [INFO] target_time: 2025-06-10 13:49:07.736411+00:00
+2025-06-10 13:49:17,740 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 13:49:17,742 [INFO] end of cron job
+2025-06-10 13:49:17,742 [INFO] Sleeping for : 30 seconds
+2025-06-10 13:49:47,752 [INFO] 
+
+starting of cron job
+2025-06-10 13:49:47,756 [INFO] target_time: 2025-06-10 13:49:37.756201+00:00
+2025-06-10 13:49:47,759 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 13:49:47,760 [INFO] end of cron job
+2025-06-10 13:49:47,760 [INFO] Sleeping for : 30 seconds
+2025-06-10 13:50:17,770 [INFO] 
+
+starting of cron job
+2025-06-10 13:50:17,772 [INFO] target_time: 2025-06-10 13:50:07.772691+00:00
+2025-06-10 13:50:17,777 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 13:50:17,778 [INFO] end of cron job
+2025-06-10 13:50:17,778 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:08:29,480 [INFO] 
+
+starting of cron job
+2025-06-10 14:08:29,481 [INFO] target_time: 2025-06-10 14:08:19.481219+00:00
+2025-06-10 14:08:29,482 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:08:29,482 [INFO] end of cron job
+2025-06-10 14:08:29,482 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:08:59,512 [INFO] 
+
+starting of cron job
+2025-06-10 14:08:59,514 [INFO] target_time: 2025-06-10 14:08:49.514454+00:00
+2025-06-10 14:08:59,520 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:08:59,521 [INFO] end of cron job
+2025-06-10 14:08:59,521 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:09:29,532 [INFO] 
+
+starting of cron job
+2025-06-10 14:09:29,532 [INFO] target_time: 2025-06-10 14:09:19.532678+00:00
+2025-06-10 14:09:29,534 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:09:29,534 [INFO] end of cron job
+2025-06-10 14:09:29,535 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:12:48,473 [INFO] 
+
+starting of cron job
+2025-06-10 14:12:48,473 [INFO] target_time: 2025-06-10 14:12:38.473398+00:00
+2025-06-10 14:12:48,474 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:12:48,474 [INFO] end of cron job
+2025-06-10 14:12:48,474 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:13:18,481 [INFO] 
+
+starting of cron job
+2025-06-10 14:13:18,483 [INFO] target_time: 2025-06-10 14:13:08.483046+00:00
+2025-06-10 14:13:18,488 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:13:18,489 [INFO] end of cron job
+2025-06-10 14:13:18,489 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:13:48,494 [INFO] 
+
+starting of cron job
+2025-06-10 14:13:48,494 [INFO] target_time: 2025-06-10 14:13:38.494778+00:00
+2025-06-10 14:13:48,496 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:13:48,497 [INFO] end of cron job
+2025-06-10 14:13:48,497 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:14:18,499 [INFO] 
+
+starting of cron job
+2025-06-10 14:14:18,499 [INFO] target_time: 2025-06-10 14:14:08.499754+00:00
+2025-06-10 14:14:18,502 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:14:18,503 [INFO] end of cron job
+2025-06-10 14:14:18,503 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:14:48,507 [INFO] 
+
+starting of cron job
+2025-06-10 14:14:48,508 [INFO] target_time: 2025-06-10 14:14:38.508369+00:00
+2025-06-10 14:14:48,512 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:14:48,513 [INFO] end of cron job
+2025-06-10 14:14:48,513 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:15:18,518 [INFO] 
+
+starting of cron job
+2025-06-10 14:15:18,519 [INFO] target_time: 2025-06-10 14:15:08.519760+00:00
+2025-06-10 14:15:18,522 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:15:18,527 [INFO] end of cron job
+2025-06-10 14:15:18,527 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:15:48,532 [INFO] 
+
+starting of cron job
+2025-06-10 14:15:48,532 [INFO] target_time: 2025-06-10 14:15:38.532885+00:00
+2025-06-10 14:15:48,536 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:15:48,537 [INFO] end of cron job
+2025-06-10 14:15:48,537 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:16:18,539 [INFO] 
+
+starting of cron job
+2025-06-10 14:16:18,539 [INFO] target_time: 2025-06-10 14:16:08.539569+00:00
+2025-06-10 14:16:18,542 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:16:18,544 [INFO] end of cron job
+2025-06-10 14:16:18,544 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:16:48,550 [INFO] 
+
+starting of cron job
+2025-06-10 14:16:48,551 [INFO] target_time: 2025-06-10 14:16:38.551619+00:00
+2025-06-10 14:16:48,555 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:16:48,556 [INFO] end of cron job
+2025-06-10 14:16:48,556 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:17:18,561 [INFO] 
+
+starting of cron job
+2025-06-10 14:17:18,561 [INFO] target_time: 2025-06-10 14:17:08.561785+00:00
+2025-06-10 14:17:18,563 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:17:18,563 [INFO] end of cron job
+2025-06-10 14:17:18,563 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:17:48,566 [INFO] 
+
+starting of cron job
+2025-06-10 14:17:48,567 [INFO] target_time: 2025-06-10 14:17:38.567229+00:00
+2025-06-10 14:17:48,569 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:17:48,570 [INFO] end of cron job
+2025-06-10 14:17:48,571 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:18:18,576 [INFO] 
+
+starting of cron job
+2025-06-10 14:18:18,577 [INFO] target_time: 2025-06-10 14:18:08.576965+00:00
+2025-06-10 14:18:18,578 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:18:18,578 [INFO] end of cron job
+2025-06-10 14:18:18,578 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:18:48,583 [INFO] 
+
+starting of cron job
+2025-06-10 14:18:48,584 [INFO] target_time: 2025-06-10 14:18:38.584131+00:00
+2025-06-10 14:18:48,587 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:18:48,588 [INFO] end of cron job
+2025-06-10 14:18:48,588 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:19:18,595 [INFO] 
+
+starting of cron job
+2025-06-10 14:19:18,595 [INFO] target_time: 2025-06-10 14:19:08.595640+00:00
+2025-06-10 14:19:18,597 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:19:18,598 [INFO] end of cron job
+2025-06-10 14:19:18,598 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:19:48,603 [INFO] 
+
+starting of cron job
+2025-06-10 14:19:48,604 [INFO] target_time: 2025-06-10 14:19:38.604586+00:00
+2025-06-10 14:19:48,607 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:19:48,608 [INFO] end of cron job
+2025-06-10 14:19:48,608 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:20:18,613 [INFO] 
+
+starting of cron job
+2025-06-10 14:20:18,614 [INFO] target_time: 2025-06-10 14:20:08.614362+00:00
+2025-06-10 14:20:18,616 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:20:18,617 [INFO] end of cron job
+2025-06-10 14:20:18,617 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:20:48,619 [INFO] 
+
+starting of cron job
+2025-06-10 14:20:48,620 [INFO] target_time: 2025-06-10 14:20:38.620414+00:00
+2025-06-10 14:20:48,622 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:20:48,624 [INFO] end of cron job
+2025-06-10 14:20:48,624 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:21:18,629 [INFO] 
+
+starting of cron job
+2025-06-10 14:21:18,630 [INFO] target_time: 2025-06-10 14:21:08.630333+00:00
+2025-06-10 14:21:18,633 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:21:18,634 [INFO] end of cron job
+2025-06-10 14:21:18,634 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:21:48,640 [INFO] 
+
+starting of cron job
+2025-06-10 14:21:48,641 [INFO] target_time: 2025-06-10 14:21:38.641144+00:00
+2025-06-10 14:21:48,644 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:21:48,645 [INFO] end of cron job
+2025-06-10 14:21:48,645 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:22:18,651 [INFO] 
+
+starting of cron job
+2025-06-10 14:22:18,652 [INFO] target_time: 2025-06-10 14:22:08.652121+00:00
+2025-06-10 14:22:18,655 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:22:18,656 [INFO] end of cron job
+2025-06-10 14:22:18,656 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:22:48,659 [INFO] 
+
+starting of cron job
+2025-06-10 14:22:48,660 [INFO] target_time: 2025-06-10 14:22:38.660383+00:00
+2025-06-10 14:22:48,662 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:22:48,663 [INFO] end of cron job
+2025-06-10 14:22:48,664 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:23:18,669 [INFO] 
+
+starting of cron job
+2025-06-10 14:23:18,674 [INFO] target_time: 2025-06-10 14:23:08.674589+00:00
+2025-06-10 14:23:18,677 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:23:18,678 [INFO] end of cron job
+2025-06-10 14:23:18,678 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:23:48,683 [INFO] 
+
+starting of cron job
+2025-06-10 14:23:48,684 [INFO] target_time: 2025-06-10 14:23:38.683620+00:00
+2025-06-10 14:23:48,687 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:23:48,688 [INFO] end of cron job
+2025-06-10 14:23:48,688 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:24:18,690 [INFO] 
+
+starting of cron job
+2025-06-10 14:24:18,691 [INFO] target_time: 2025-06-10 14:24:08.691459+00:00
+2025-06-10 14:24:18,693 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:24:18,695 [INFO] end of cron job
+2025-06-10 14:24:18,695 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:24:48,707 [INFO] 
+
+starting of cron job
+2025-06-10 14:24:48,707 [INFO] target_time: 2025-06-10 14:24:38.707924+00:00
+2025-06-10 14:24:48,709 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:24:48,710 [INFO] end of cron job
+2025-06-10 14:24:48,711 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:25:18,717 [INFO] 
+
+starting of cron job
+2025-06-10 14:25:18,718 [INFO] target_time: 2025-06-10 14:25:08.718725+00:00
+2025-06-10 14:25:18,721 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:25:18,722 [INFO] end of cron job
+2025-06-10 14:25:18,723 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:25:48,728 [INFO] 
+
+starting of cron job
+2025-06-10 14:25:48,730 [INFO] target_time: 2025-06-10 14:25:38.730005+00:00
+2025-06-10 14:25:48,732 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:25:48,733 [INFO] end of cron job
+2025-06-10 14:25:48,733 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:26:18,738 [INFO] 
+
+starting of cron job
+2025-06-10 14:26:18,739 [INFO] target_time: 2025-06-10 14:26:08.739531+00:00
+2025-06-10 14:26:18,742 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:26:18,743 [INFO] end of cron job
+2025-06-10 14:26:18,743 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:26:48,749 [INFO] 
+
+starting of cron job
+2025-06-10 14:26:48,751 [INFO] target_time: 2025-06-10 14:26:38.751137+00:00
+2025-06-10 14:26:48,753 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:26:48,754 [INFO] end of cron job
+2025-06-10 14:26:48,754 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:27:18,758 [INFO] 
+
+starting of cron job
+2025-06-10 14:27:18,759 [INFO] target_time: 2025-06-10 14:27:08.759579+00:00
+2025-06-10 14:27:18,762 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:27:18,762 [INFO] end of cron job
+2025-06-10 14:27:18,763 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:27:48,767 [INFO] 
+
+starting of cron job
+2025-06-10 14:27:48,772 [INFO] target_time: 2025-06-10 14:27:38.772229+00:00
+2025-06-10 14:27:48,776 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:27:48,777 [INFO] end of cron job
+2025-06-10 14:27:48,777 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:28:18,777 [INFO] 
+
+starting of cron job
+2025-06-10 14:28:18,779 [INFO] target_time: 2025-06-10 14:28:08.779335+00:00
+2025-06-10 14:28:18,780 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:28:18,780 [INFO] end of cron job
+2025-06-10 14:28:18,780 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:28:48,786 [INFO] 
+
+starting of cron job
+2025-06-10 14:28:48,786 [INFO] target_time: 2025-06-10 14:28:38.786651+00:00
+2025-06-10 14:28:48,789 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:28:48,789 [INFO] end of cron job
+2025-06-10 14:28:48,789 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:29:18,795 [INFO] 
+
+starting of cron job
+2025-06-10 14:29:18,795 [INFO] target_time: 2025-06-10 14:29:08.795933+00:00
+2025-06-10 14:29:18,798 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:29:18,799 [INFO] end of cron job
+2025-06-10 14:29:18,799 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:29:48,802 [INFO] 
+
+starting of cron job
+2025-06-10 14:29:48,803 [INFO] target_time: 2025-06-10 14:29:38.803393+00:00
+2025-06-10 14:29:48,808 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:29:48,809 [INFO] end of cron job
+2025-06-10 14:29:48,809 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:30:18,815 [INFO] 
+
+starting of cron job
+2025-06-10 14:30:18,815 [INFO] target_time: 2025-06-10 14:30:08.815816+00:00
+2025-06-10 14:30:18,818 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:30:18,819 [INFO] end of cron job
+2025-06-10 14:30:18,819 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:30:48,824 [INFO] 
+
+starting of cron job
+2025-06-10 14:30:48,825 [INFO] target_time: 2025-06-10 14:30:38.825555+00:00
+2025-06-10 14:30:48,827 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:30:48,828 [INFO] end of cron job
+2025-06-10 14:30:48,828 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:31:18,831 [INFO] 
+
+starting of cron job
+2025-06-10 14:31:18,831 [INFO] target_time: 2025-06-10 14:31:08.831476+00:00
+2025-06-10 14:31:18,833 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:31:18,833 [INFO] end of cron job
+2025-06-10 14:31:18,833 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:31:48,837 [INFO] 
+
+starting of cron job
+2025-06-10 14:31:48,838 [INFO] target_time: 2025-06-10 14:31:38.838073+00:00
+2025-06-10 14:31:48,843 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:31:48,845 [INFO] end of cron job
+2025-06-10 14:31:48,845 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:32:18,850 [INFO] 
+
+starting of cron job
+2025-06-10 14:32:18,857 [INFO] target_time: 2025-06-10 14:32:08.857300+00:00
+2025-06-10 14:32:18,863 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:32:18,864 [INFO] end of cron job
+2025-06-10 14:32:18,864 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:32:48,866 [INFO] 
+
+starting of cron job
+2025-06-10 14:32:48,866 [INFO] target_time: 2025-06-10 14:32:38.866926+00:00
+2025-06-10 14:32:48,867 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:32:48,867 [INFO] end of cron job
+2025-06-10 14:32:48,867 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:33:18,869 [INFO] 
+
+starting of cron job
+2025-06-10 14:33:18,869 [INFO] target_time: 2025-06-10 14:33:08.869650+00:00
+2025-06-10 14:33:18,870 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:33:18,871 [INFO] end of cron job
+2025-06-10 14:33:18,871 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:33:48,872 [INFO] 
+
+starting of cron job
+2025-06-10 14:33:48,872 [INFO] target_time: 2025-06-10 14:33:38.872651+00:00
+2025-06-10 14:33:48,874 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:33:48,874 [INFO] end of cron job
+2025-06-10 14:33:48,874 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:34:18,879 [INFO] 
+
+starting of cron job
+2025-06-10 14:34:18,881 [INFO] target_time: 2025-06-10 14:34:08.881011+00:00
+2025-06-10 14:34:18,881 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:34:18,882 [INFO] end of cron job
+2025-06-10 14:34:18,882 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:34:48,887 [INFO] 
+
+starting of cron job
+2025-06-10 14:34:48,894 [INFO] target_time: 2025-06-10 14:34:38.894246+00:00
+2025-06-10 14:34:48,897 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:34:48,897 [INFO] end of cron job
+2025-06-10 14:34:48,897 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:35:18,902 [INFO] 
+
+starting of cron job
+2025-06-10 14:35:18,902 [INFO] target_time: 2025-06-10 14:35:08.902736+00:00
+2025-06-10 14:35:18,903 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:35:18,903 [INFO] end of cron job
+2025-06-10 14:35:18,903 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:35:48,909 [INFO] 
+
+starting of cron job
+2025-06-10 14:35:48,910 [INFO] target_time: 2025-06-10 14:35:38.909966+00:00
+2025-06-10 14:35:48,913 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:35:48,915 [INFO] end of cron job
+2025-06-10 14:35:48,917 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:36:18,922 [INFO] 
+
+starting of cron job
+2025-06-10 14:36:18,923 [INFO] target_time: 2025-06-10 14:36:08.922944+00:00
+2025-06-10 14:36:18,926 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:36:18,927 [INFO] end of cron job
+2025-06-10 14:36:18,927 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:36:48,936 [INFO] 
+
+starting of cron job
+2025-06-10 14:36:48,937 [INFO] target_time: 2025-06-10 14:36:38.937177+00:00
+2025-06-10 14:36:48,938 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:36:48,938 [INFO] end of cron job
+2025-06-10 14:36:48,938 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:37:18,943 [INFO] 
+
+starting of cron job
+2025-06-10 14:37:18,943 [INFO] target_time: 2025-06-10 14:37:08.943852+00:00
+2025-06-10 14:37:18,944 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:37:18,944 [INFO] end of cron job
+2025-06-10 14:37:18,944 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:37:48,946 [INFO] 
+
+starting of cron job
+2025-06-10 14:37:48,947 [INFO] target_time: 2025-06-10 14:37:38.947320+00:00
+2025-06-10 14:37:48,950 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:37:48,951 [INFO] end of cron job
+2025-06-10 14:37:48,951 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:38:18,958 [INFO] 
+
+starting of cron job
+2025-06-10 14:38:18,964 [INFO] target_time: 2025-06-10 14:38:08.963975+00:00
+2025-06-10 14:38:18,967 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:38:18,967 [INFO] end of cron job
+2025-06-10 14:38:18,967 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:38:48,975 [INFO] 
+
+starting of cron job
+2025-06-10 14:38:48,976 [INFO] target_time: 2025-06-10 14:38:38.976693+00:00
+2025-06-10 14:38:48,983 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:38:48,984 [INFO] end of cron job
+2025-06-10 14:38:48,984 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:39:18,989 [INFO] 
+
+starting of cron job
+2025-06-10 14:39:18,989 [INFO] target_time: 2025-06-10 14:39:08.989490+00:00
+2025-06-10 14:39:18,990 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:39:18,990 [INFO] end of cron job
+2025-06-10 14:39:18,990 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:39:48,993 [INFO] 
+
+starting of cron job
+2025-06-10 14:39:48,993 [INFO] target_time: 2025-06-10 14:39:38.993343+00:00
+2025-06-10 14:39:48,994 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:39:48,994 [INFO] end of cron job
+2025-06-10 14:39:48,994 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:40:18,999 [INFO] 
+
+starting of cron job
+2025-06-10 14:40:18,999 [INFO] target_time: 2025-06-10 14:40:08.999866+00:00
+2025-06-10 14:40:19,000 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:40:19,000 [INFO] end of cron job
+2025-06-10 14:40:19,000 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:40:49,006 [INFO] 
+
+starting of cron job
+2025-06-10 14:40:49,006 [INFO] target_time: 2025-06-10 14:40:39.006252+00:00
+2025-06-10 14:40:49,007 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:40:49,007 [INFO] end of cron job
+2025-06-10 14:40:49,007 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:41:19,010 [INFO] 
+
+starting of cron job
+2025-06-10 14:41:19,010 [INFO] target_time: 2025-06-10 14:41:09.010714+00:00
+2025-06-10 14:41:19,011 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:41:19,012 [INFO] end of cron job
+2025-06-10 14:41:19,012 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:41:49,017 [INFO] 
+
+starting of cron job
+2025-06-10 14:41:49,017 [INFO] target_time: 2025-06-10 14:41:39.017499+00:00
+2025-06-10 14:41:49,018 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:41:49,018 [INFO] end of cron job
+2025-06-10 14:41:49,018 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:42:19,023 [INFO] 
+
+starting of cron job
+2025-06-10 14:42:19,023 [INFO] target_time: 2025-06-10 14:42:09.023869+00:00
+2025-06-10 14:42:19,025 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:42:19,025 [INFO] end of cron job
+2025-06-10 14:42:19,025 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:42:49,033 [INFO] 
+
+starting of cron job
+2025-06-10 14:42:49,034 [INFO] target_time: 2025-06-10 14:42:39.033940+00:00
+2025-06-10 14:42:49,035 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:42:49,036 [INFO] end of cron job
+2025-06-10 14:42:49,036 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:43:19,041 [INFO] 
+
+starting of cron job
+2025-06-10 14:43:19,041 [INFO] target_time: 2025-06-10 14:43:09.041833+00:00
+2025-06-10 14:43:19,043 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:43:19,043 [INFO] end of cron job
+2025-06-10 14:43:19,043 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:43:49,048 [INFO] 
+
+starting of cron job
+2025-06-10 14:43:49,049 [INFO] target_time: 2025-06-10 14:43:39.049042+00:00
+2025-06-10 14:43:49,049 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:43:49,049 [INFO] end of cron job
+2025-06-10 14:43:49,049 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:44:19,053 [INFO] 
+
+starting of cron job
+2025-06-10 14:44:19,053 [INFO] target_time: 2025-06-10 14:44:09.053616+00:00
+2025-06-10 14:44:19,054 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:44:19,054 [INFO] end of cron job
+2025-06-10 14:44:19,054 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:44:49,058 [INFO] 
+
+starting of cron job
+2025-06-10 14:44:49,059 [INFO] target_time: 2025-06-10 14:44:39.059248+00:00
+2025-06-10 14:44:49,060 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:44:49,061 [INFO] end of cron job
+2025-06-10 14:44:49,061 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:45:19,066 [INFO] 
+
+starting of cron job
+2025-06-10 14:45:19,066 [INFO] target_time: 2025-06-10 14:45:09.066921+00:00
+2025-06-10 14:45:19,067 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:45:19,068 [INFO] end of cron job
+2025-06-10 14:45:19,068 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:45:49,073 [INFO] 
+
+starting of cron job
+2025-06-10 14:45:49,073 [INFO] target_time: 2025-06-10 14:45:39.073680+00:00
+2025-06-10 14:45:49,075 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:45:49,075 [INFO] end of cron job
+2025-06-10 14:45:49,075 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:46:19,081 [INFO] 
+
+starting of cron job
+2025-06-10 14:46:19,082 [INFO] target_time: 2025-06-10 14:46:09.082265+00:00
+2025-06-10 14:46:19,083 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:46:19,083 [INFO] end of cron job
+2025-06-10 14:46:19,083 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:46:49,097 [INFO] 
+
+starting of cron job
+2025-06-10 14:46:49,103 [INFO] target_time: 2025-06-10 14:46:39.103325+00:00
+2025-06-10 14:46:49,106 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:46:49,107 [INFO] end of cron job
+2025-06-10 14:46:49,107 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:47:19,115 [INFO] 
+
+starting of cron job
+2025-06-10 14:47:19,115 [INFO] target_time: 2025-06-10 14:47:09.115335+00:00
+2025-06-10 14:47:19,115 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:47:19,116 [INFO] end of cron job
+2025-06-10 14:47:19,116 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:47:49,122 [INFO] 
+
+starting of cron job
+2025-06-10 14:47:49,128 [INFO] target_time: 2025-06-10 14:47:39.128086+00:00
+2025-06-10 14:47:49,130 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:47:49,131 [INFO] end of cron job
+2025-06-10 14:47:49,131 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:48:19,135 [INFO] 
+
+starting of cron job
+2025-06-10 14:48:19,135 [INFO] target_time: 2025-06-10 14:48:09.135333+00:00
+2025-06-10 14:48:19,135 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:48:19,136 [INFO] end of cron job
+2025-06-10 14:48:19,136 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:48:49,141 [INFO] 
+
+starting of cron job
+2025-06-10 14:48:49,141 [INFO] target_time: 2025-06-10 14:48:39.141961+00:00
+2025-06-10 14:48:49,142 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:48:49,143 [INFO] end of cron job
+2025-06-10 14:48:49,143 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:49:19,148 [INFO] 
+
+starting of cron job
+2025-06-10 14:49:19,149 [INFO] target_time: 2025-06-10 14:49:09.149004+00:00
+2025-06-10 14:49:19,150 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:49:19,151 [INFO] end of cron job
+2025-06-10 14:49:19,151 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:49:49,156 [INFO] 
+
+starting of cron job
+2025-06-10 14:49:49,156 [INFO] target_time: 2025-06-10 14:49:39.156244+00:00
+2025-06-10 14:49:49,156 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:49:49,157 [INFO] end of cron job
+2025-06-10 14:49:49,157 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:50:19,160 [INFO] 
+
+starting of cron job
+2025-06-10 14:50:19,160 [INFO] target_time: 2025-06-10 14:50:09.160901+00:00
+2025-06-10 14:50:19,161 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:50:19,161 [INFO] end of cron job
+2025-06-10 14:50:19,161 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:50:49,169 [INFO] 
+
+starting of cron job
+2025-06-10 14:50:49,170 [INFO] target_time: 2025-06-10 14:50:39.170489+00:00
+2025-06-10 14:50:49,175 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:50:49,176 [INFO] end of cron job
+2025-06-10 14:50:49,176 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:51:19,181 [INFO] 
+
+starting of cron job
+2025-06-10 14:51:19,181 [INFO] target_time: 2025-06-10 14:51:09.181273+00:00
+2025-06-10 14:51:19,182 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:51:19,182 [INFO] end of cron job
+2025-06-10 14:51:19,183 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:51:49,188 [INFO] 
+
+starting of cron job
+2025-06-10 14:51:49,188 [INFO] target_time: 2025-06-10 14:51:39.188781+00:00
+2025-06-10 14:51:49,190 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:51:49,191 [INFO] end of cron job
+2025-06-10 14:51:49,191 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:52:19,197 [INFO] 
+
+starting of cron job
+2025-06-10 14:52:19,199 [INFO] target_time: 2025-06-10 14:52:09.198351+00:00
+2025-06-10 14:52:19,202 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:52:19,203 [INFO] end of cron job
+2025-06-10 14:52:19,204 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:52:49,209 [INFO] 
+
+starting of cron job
+2025-06-10 14:52:49,210 [INFO] target_time: 2025-06-10 14:52:39.210505+00:00
+2025-06-10 14:52:49,214 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:52:49,215 [INFO] end of cron job
+2025-06-10 14:52:49,215 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:53:19,220 [INFO] 
+
+starting of cron job
+2025-06-10 14:53:19,221 [INFO] target_time: 2025-06-10 14:53:09.221651+00:00
+2025-06-10 14:53:19,224 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:53:19,225 [INFO] end of cron job
+2025-06-10 14:53:19,225 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:53:49,231 [INFO] 
+
+starting of cron job
+2025-06-10 14:53:49,235 [INFO] target_time: 2025-06-10 14:53:39.235837+00:00
+2025-06-10 14:53:49,240 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:53:49,241 [INFO] end of cron job
+2025-06-10 14:53:49,241 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:54:19,249 [INFO] 
+
+starting of cron job
+2025-06-10 14:54:19,250 [INFO] target_time: 2025-06-10 14:54:09.250336+00:00
+2025-06-10 14:54:19,252 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:54:19,252 [INFO] end of cron job
+2025-06-10 14:54:19,252 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:54:49,258 [INFO] 
+
+starting of cron job
+2025-06-10 14:54:49,259 [INFO] target_time: 2025-06-10 14:54:39.259289+00:00
+2025-06-10 14:54:49,265 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:54:49,266 [INFO] end of cron job
+2025-06-10 14:54:49,266 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:55:19,272 [INFO] 
+
+starting of cron job
+2025-06-10 14:55:19,272 [INFO] target_time: 2025-06-10 14:55:09.272670+00:00
+2025-06-10 14:55:19,275 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:55:19,276 [INFO] end of cron job
+2025-06-10 14:55:19,276 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:55:49,281 [INFO] 
+
+starting of cron job
+2025-06-10 14:55:49,282 [INFO] target_time: 2025-06-10 14:55:39.282292+00:00
+2025-06-10 14:55:49,286 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:55:49,287 [INFO] end of cron job
+2025-06-10 14:55:49,288 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:56:19,294 [INFO] 
+
+starting of cron job
+2025-06-10 14:56:19,295 [INFO] target_time: 2025-06-10 14:56:09.295069+00:00
+2025-06-10 14:56:19,299 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:56:19,300 [INFO] end of cron job
+2025-06-10 14:56:19,300 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:56:49,306 [INFO] 
+
+starting of cron job
+2025-06-10 14:56:49,307 [INFO] target_time: 2025-06-10 14:56:39.307389+00:00
+2025-06-10 14:56:49,317 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:56:49,318 [INFO] end of cron job
+2025-06-10 14:56:49,318 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:57:19,329 [INFO] 
+
+starting of cron job
+2025-06-10 14:57:19,329 [INFO] target_time: 2025-06-10 14:57:09.329512+00:00
+2025-06-10 14:57:19,330 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:57:19,331 [INFO] end of cron job
+2025-06-10 14:57:19,331 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:57:49,335 [INFO] 
+
+starting of cron job
+2025-06-10 14:57:49,336 [INFO] target_time: 2025-06-10 14:57:39.336070+00:00
+2025-06-10 14:57:49,336 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:57:49,337 [INFO] end of cron job
+2025-06-10 14:57:49,337 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:58:19,350 [INFO] 
+
+starting of cron job
+2025-06-10 14:58:19,351 [INFO] target_time: 2025-06-10 14:58:09.351095+00:00
+2025-06-10 14:58:19,353 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:58:19,354 [INFO] end of cron job
+2025-06-10 14:58:19,354 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:58:49,364 [INFO] 
+
+starting of cron job
+2025-06-10 14:58:49,367 [INFO] target_time: 2025-06-10 14:58:39.367177+00:00
+2025-06-10 14:58:49,374 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:58:49,375 [INFO] end of cron job
+2025-06-10 14:58:49,375 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:59:19,386 [INFO] 
+
+starting of cron job
+2025-06-10 14:59:19,387 [INFO] target_time: 2025-06-10 14:59:09.387337+00:00
+2025-06-10 14:59:19,389 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:59:19,390 [INFO] end of cron job
+2025-06-10 14:59:19,390 [INFO] Sleeping for : 30 seconds
+2025-06-10 14:59:49,401 [INFO] 
+
+starting of cron job
+2025-06-10 14:59:49,402 [INFO] target_time: 2025-06-10 14:59:39.402370+00:00
+2025-06-10 14:59:49,407 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 14:59:49,407 [INFO] end of cron job
+2025-06-10 14:59:49,408 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:00:19,416 [INFO] 
+
+starting of cron job
+2025-06-10 15:00:19,416 [INFO] target_time: 2025-06-10 15:00:09.416858+00:00
+2025-06-10 15:00:19,419 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:00:19,420 [INFO] end of cron job
+2025-06-10 15:00:19,420 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:00:49,431 [INFO] 
+
+starting of cron job
+2025-06-10 15:00:49,432 [INFO] target_time: 2025-06-10 15:00:39.432478+00:00
+2025-06-10 15:00:49,436 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:00:49,438 [INFO] end of cron job
+2025-06-10 15:00:49,438 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:01:19,448 [INFO] 
+
+starting of cron job
+2025-06-10 15:01:19,449 [INFO] target_time: 2025-06-10 15:01:09.449495+00:00
+2025-06-10 15:01:19,454 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:01:19,455 [INFO] end of cron job
+2025-06-10 15:01:19,456 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:01:49,466 [INFO] 
+
+starting of cron job
+2025-06-10 15:01:49,468 [INFO] target_time: 2025-06-10 15:01:39.468082+00:00
+2025-06-10 15:01:49,473 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:01:49,474 [INFO] end of cron job
+2025-06-10 15:01:49,474 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:02:19,485 [INFO] 
+
+starting of cron job
+2025-06-10 15:02:19,486 [INFO] target_time: 2025-06-10 15:02:09.485936+00:00
+2025-06-10 15:02:19,489 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:02:19,490 [INFO] end of cron job
+2025-06-10 15:02:19,490 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:02:49,500 [INFO] 
+
+starting of cron job
+2025-06-10 15:02:49,501 [INFO] target_time: 2025-06-10 15:02:39.501451+00:00
+2025-06-10 15:02:49,505 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:02:49,506 [INFO] end of cron job
+2025-06-10 15:02:49,506 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:03:19,514 [INFO] 
+
+starting of cron job
+2025-06-10 15:03:19,514 [INFO] target_time: 2025-06-10 15:03:09.514722+00:00
+2025-06-10 15:03:19,515 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:03:19,515 [INFO] end of cron job
+2025-06-10 15:03:19,516 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:03:49,526 [INFO] 
+
+starting of cron job
+2025-06-10 15:03:49,527 [INFO] target_time: 2025-06-10 15:03:39.527181+00:00
+2025-06-10 15:03:49,530 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:03:49,530 [INFO] end of cron job
+2025-06-10 15:03:49,530 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:04:19,540 [INFO] 
+
+starting of cron job
+2025-06-10 15:04:19,541 [INFO] target_time: 2025-06-10 15:04:09.541427+00:00
+2025-06-10 15:04:19,544 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:04:19,545 [INFO] end of cron job
+2025-06-10 15:04:19,545 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:04:49,555 [INFO] 
+
+starting of cron job
+2025-06-10 15:04:49,555 [INFO] target_time: 2025-06-10 15:04:39.555572+00:00
+2025-06-10 15:04:49,557 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:04:49,557 [INFO] end of cron job
+2025-06-10 15:04:49,557 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:05:19,572 [INFO] 
+
+starting of cron job
+2025-06-10 15:05:19,572 [INFO] target_time: 2025-06-10 15:05:09.572894+00:00
+2025-06-10 15:05:19,575 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:05:19,576 [INFO] end of cron job
+2025-06-10 15:05:19,576 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:05:49,587 [INFO] 
+
+starting of cron job
+2025-06-10 15:05:49,587 [INFO] target_time: 2025-06-10 15:05:39.587840+00:00
+2025-06-10 15:05:49,591 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:05:49,592 [INFO] end of cron job
+2025-06-10 15:05:49,592 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:06:19,600 [INFO] 
+
+starting of cron job
+2025-06-10 15:06:19,603 [INFO] target_time: 2025-06-10 15:06:09.603090+00:00
+2025-06-10 15:06:19,605 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:06:19,606 [INFO] end of cron job
+2025-06-10 15:06:19,606 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:06:49,617 [INFO] 
+
+starting of cron job
+2025-06-10 15:06:49,617 [INFO] target_time: 2025-06-10 15:06:39.617667+00:00
+2025-06-10 15:06:49,618 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:06:49,618 [INFO] end of cron job
+2025-06-10 15:06:49,618 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:07:19,629 [INFO] 
+
+starting of cron job
+2025-06-10 15:07:19,631 [INFO] target_time: 2025-06-10 15:07:09.630918+00:00
+2025-06-10 15:07:19,634 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:07:19,635 [INFO] end of cron job
+2025-06-10 15:07:19,635 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:07:49,644 [INFO] 
+
+starting of cron job
+2025-06-10 15:07:49,645 [INFO] target_time: 2025-06-10 15:07:39.645328+00:00
+2025-06-10 15:07:49,650 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:07:49,650 [INFO] end of cron job
+2025-06-10 15:07:49,650 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:08:19,658 [INFO] 
+
+starting of cron job
+2025-06-10 15:08:19,659 [INFO] target_time: 2025-06-10 15:08:09.659755+00:00
+2025-06-10 15:08:19,663 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:08:19,664 [INFO] end of cron job
+2025-06-10 15:08:19,664 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:08:49,675 [INFO] 
+
+starting of cron job
+2025-06-10 15:08:49,678 [INFO] target_time: 2025-06-10 15:08:39.678017+00:00
+2025-06-10 15:08:49,680 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:08:49,681 [INFO] end of cron job
+2025-06-10 15:08:49,681 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:09:19,692 [INFO] 
+
+starting of cron job
+2025-06-10 15:09:19,693 [INFO] target_time: 2025-06-10 15:09:09.693209+00:00
+2025-06-10 15:09:19,697 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:09:19,699 [INFO] end of cron job
+2025-06-10 15:09:19,699 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:09:49,709 [INFO] 
+
+starting of cron job
+2025-06-10 15:09:49,710 [INFO] target_time: 2025-06-10 15:09:39.710486+00:00
+2025-06-10 15:09:49,714 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:09:49,715 [INFO] end of cron job
+2025-06-10 15:09:49,715 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:10:19,717 [INFO] 
+
+starting of cron job
+2025-06-10 15:10:19,718 [INFO] target_time: 2025-06-10 15:10:09.717941+00:00
+2025-06-10 15:10:19,722 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:10:19,722 [INFO] end of cron job
+2025-06-10 15:10:19,722 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:10:49,732 [INFO] 
+
+starting of cron job
+2025-06-10 15:10:49,733 [INFO] target_time: 2025-06-10 15:10:39.733328+00:00
+2025-06-10 15:10:49,736 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:10:49,737 [INFO] end of cron job
+2025-06-10 15:10:49,738 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:11:19,748 [INFO] 
+
+starting of cron job
+2025-06-10 15:11:19,749 [INFO] target_time: 2025-06-10 15:11:09.749667+00:00
+2025-06-10 15:11:19,752 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:11:19,753 [INFO] end of cron job
+2025-06-10 15:11:19,753 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:11:49,762 [INFO] 
+
+starting of cron job
+2025-06-10 15:11:49,763 [INFO] target_time: 2025-06-10 15:11:39.763643+00:00
+2025-06-10 15:11:49,767 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:11:49,768 [INFO] end of cron job
+2025-06-10 15:11:49,768 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:14:12,525 [INFO] 
+
+starting of cron job
+2025-06-10 15:14:12,526 [INFO] target_time: 2025-06-10 15:14:02.526666+00:00
+2025-06-10 15:14:12,528 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:14:12,528 [INFO] end of cron job
+2025-06-10 15:14:12,528 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:14:42,527 [INFO] 
+
+starting of cron job
+2025-06-10 15:14:42,528 [INFO] target_time: 2025-06-10 15:14:32.528185+00:00
+2025-06-10 15:14:42,532 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:14:42,533 [INFO] end of cron job
+2025-06-10 15:14:42,533 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:15:12,536 [INFO] 
+
+starting of cron job
+2025-06-10 15:15:12,536 [INFO] target_time: 2025-06-10 15:15:02.536823+00:00
+2025-06-10 15:15:12,537 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:15:12,537 [INFO] end of cron job
+2025-06-10 15:15:12,537 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:15:42,544 [INFO] 
+
+starting of cron job
+2025-06-10 15:15:42,545 [INFO] target_time: 2025-06-10 15:15:32.545257+00:00
+2025-06-10 15:15:42,548 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:15:42,549 [INFO] end of cron job
+2025-06-10 15:15:42,549 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:16:12,552 [INFO] 
+
+starting of cron job
+2025-06-10 15:16:12,553 [INFO] target_time: 2025-06-10 15:16:02.553830+00:00
+2025-06-10 15:16:12,558 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:16:12,558 [INFO] end of cron job
+2025-06-10 15:16:12,559 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:16:42,564 [INFO] 
+
+starting of cron job
+2025-06-10 15:16:42,565 [INFO] target_time: 2025-06-10 15:16:32.565195+00:00
+2025-06-10 15:16:42,568 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:16:42,569 [INFO] end of cron job
+2025-06-10 15:16:42,569 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:17:12,571 [INFO] 
+
+starting of cron job
+2025-06-10 15:17:12,572 [INFO] target_time: 2025-06-10 15:17:02.572428+00:00
+2025-06-10 15:17:12,575 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:17:12,576 [INFO] end of cron job
+2025-06-10 15:17:12,576 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:17:42,581 [INFO] 
+
+starting of cron job
+2025-06-10 15:17:42,582 [INFO] target_time: 2025-06-10 15:17:32.582507+00:00
+2025-06-10 15:17:42,586 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:17:42,587 [INFO] end of cron job
+2025-06-10 15:17:42,587 [INFO] Sleeping for : 30 seconds
