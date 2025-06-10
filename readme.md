@@ -140,7 +140,41 @@ It would start running the webserver. The webserver by default would listen to
 `http://127.0.0.1:8000/`. And we would be able to see the logs 
 both in console and in the file named `webservice.log`. 
 
-### How to hit the only public api endpoint
+
+
+
+
+## How to run the celery i.e. Internal Authorization Service
+
+Please go to the root folder of the project.
+
+Then need to run in terminal:
+```
+service_name=celery celery -A asynchronous_service_communication worker 
+--loglevel=info
+```
+
+It should start the celery and we are able to see the logs in console. 
+Please note that once a decision is taken the decision in persisted in the 
+database. And the decision is sent to the callback url.
+
+
+## How to run the command / Cronjob
+
+Please go to the root of the project.
+Then in terminal run 
+
+```
+service_name=command TIMEOUT_IN_SECONDS=10 CRON_JOB_SLEEP_TIME_IN_SECONDS=30 python3 manage.py give_decision_after_timeout service_name=command python3 manage.py give_decision_after_timeout
+```
+
+We can give our preferred value for the `TIMEOUT_IN_SECONDS` and 
+`CRON_JOB_SLEEP_TIME_IN_SECONDS`.
+
+It should start our cron job and start printing the logs in console and in 
+the file `command.log`.
+
+## Documentation of the only public api endpoint
 
 #### HTTP method
 POST
@@ -194,38 +228,6 @@ If the request has some issues (for example station_id is not valid UUID), then:
 } 
 ```
 
-
-
-
-## How to run the celery i.e. Internal Authorization Service
-
-Please go to the root folder of the project.
-
-Then need to run in terminal:
-```
-service_name=celery celery -A asynchronous_service_communication worker 
---loglevel=info
-```
-
-It should start the celery and we are able to see the logs in console. 
-Please note that once a decision is taken the decision in persisted in the 
-database. And the decision is sent to the callback url.
-
-
-## How to run the command / Cronjob
-
-Please go to the root of the project.
-Then in terminal run 
-
-```
-service_name=command TIMEOUT_IN_SECONDS=10 CRON_JOB_SLEEP_TIME_IN_SECONDS=30 python3 manage.py give_decision_after_timeout service_name=command python3 manage.py give_decision_after_timeout
-```
-
-We can give our preferred value for the `TIMEOUT_IN_SECONDS` and 
-`CRON_JOB_SLEEP_TIME_IN_SECONDS`.
-
-It should start our cron job and start printing the logs in console and in 
-the file `command.log`.
 
 ## Check the database
 
