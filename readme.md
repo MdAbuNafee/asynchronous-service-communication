@@ -229,8 +229,6 @@ the file `command.log`.
 
 ## Check the database
 
-For checking details about database please inspect the file named `asynchronous_service_communication/models.py`
-
 Please go to the root folder of the project.
 
 Then let's run following command in terminal.
@@ -325,12 +323,12 @@ We may face a lot of requests coming at the same time and our server can't
 process all the requests. Then we need to identify the bottleneck and take following actions:  
 
 1. If we find out our web service server is the bottleneck
-   2. Scaling out our web service server horizontally i.e. employ more 
+   - Scaling out our web service server horizontally i.e. employ more 
       services there and employing load balancer before these
-3. If we find our message queue is the bottleneck
-   4. Increasing queue's capacity
-   5. Implementing features like message partitioning
-5. If we find our worker / consumer is the bottleneck
-   6. Scaling out multiple consumers / workers
-7. If we find our database is the bottleneck
-   8. We can employ multiple databases (So a kind of sharding strategy there)
+2. If we find our message queue is the bottleneck
+   - Increasing queue's capacity
+   - Implementing features like message partitioning
+3. If we find our worker / consumer is the bottleneck
+   - Scaling out multiple consumers / workers
+4. If we find our database is the bottleneck
+   - We can employ multiple databases (So a kind of sharding strategy there)
