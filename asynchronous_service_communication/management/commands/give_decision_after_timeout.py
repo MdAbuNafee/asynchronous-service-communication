@@ -7,7 +7,6 @@ from django.core.management.base import BaseCommand
 from django.utils import timezone
 
 from asynchronous_service_communication import (
-    constant,
     logger,
     callback,
     decision_data_access,
@@ -16,6 +15,7 @@ from asynchronous_service_communication.constant import (
     DecisionTypes,
     DecisionTakenByTypes,
     CRON_JOB_SLEEP_TIME_IN_SECONDS,
+    TIMEOUT_IN_SECONDS,
 )
 from asynchronous_service_communication.decision_data_access import save_decision
 
@@ -24,11 +24,14 @@ class Command(BaseCommand):
     help = "Gives unknown decision after timeout"
 
     def handle(self, *args, **options):
+        logger.info(f"CRON_JOB_SLEEP_TIME_IN_SECONDS = {CRON_JOB_SLEEP_TIME_IN_SECONDS}")
+        logger.info(f"given unknown decision after "
+                    f" {TIMEOUT_IN_SECONDS} seconds")
         while True:
             logger.info("\n\nstarting of cron job")
             target_time = timezone.now() - timedelta(
                 hours=0,
-                seconds=constant.TIMEOUT_IN_SECONDS,
+                seconds=int(TIMEOUT_IN_SECONDS),
             )
             logger.info(f"target_time: {target_time}")
             decision_instance_list = (

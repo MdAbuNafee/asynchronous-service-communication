@@ -16,7 +16,7 @@ class DecisionInstance(models.Model):
 
     def __str__(self):
         return (
-            f"\n\n"
+            f"\n"
             f"primary key = {self.pk}, \n"
             f"station_id = {self.station_id}, \n"
             f"driver_token = {self.driver_token},  \n"
@@ -25,5 +25,5 @@ class DecisionInstance(models.Model):
             f"updated_at = {self.updated_at}, \n"
             f"callback_url = {self.callback_url}, \n"
             f"decision_taken_by = {self.decision_taken_by}, \n"
-            f"\n\n"
+            f"\n"
         )

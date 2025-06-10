@@ -106,3 +106,35 @@ decision_taken_by = ,
 
 
 2025-06-10 07:55:51,385 [INFO] passed decision instance to the internal authorization service 
+2025-06-10 09:09:48,184 [INFO] POST session request: {'station_id': '123e4567-e89b-12d3-a456-426614174000', 'driver_token': 'validDriverToken1234567', 'callback_url': 'https://webhook.site/a02530e4-62e6-433b-ae31-d1392e823f12'}
+2025-06-10 09:09:48,191 [INFO] saved decision instance: 
+
+primary key = 19, 
+station_id = 123e4567-e89b-12d3-a456-426614174000, 
+driver_token = validDriverToken1234567,  
+created_at = 2025-06-10 09:09:48.190324+00:00, 
+decision = DecisionTypes.UNKNOWN, 
+updated_at = 2025-06-10 09:09:48.190355+00:00, 
+callback_url = https://webhook.site/a02530e4-62e6-433b-ae31-d1392e823f12, 
+decision_taken_by = , 
+
+
+
+2025-06-10 09:09:48,267 [INFO] passed decision instance to the internal authorization service 
+2025-06-10 09:24:36,893 [INFO] POST session request: {'station_id': '123e4567', 'driver_token': 'validDriverToken1234567', 'callback_url': 'https://webhook.site/a02530e4-62e6-433b-ae31-d1392e823f12'}
+2025-06-10 10:34:08,566 [INFO] POST session request: {'station_id': '123e4567', 'driver_token': 'validDriverToken1234567', 'callback_url': 'https://webhook.site/a02530e4-62e6-433b-ae31-d1392e823f12'}
+2025-06-10 10:34:15,268 [INFO] POST session request: {'station_id': '123e4567-e89b-12d3-a456-426614174000', 'driver_token': 'validDriverToken1234567', 'callback_url': 'https://webhook.site/a02530e4-62e6-433b-ae31-d1392e823f12'}
+2025-06-10 10:34:15,274 [INFO] saved decision instance: 
+
+primary key = 20, 
+station_id = 123e4567-e89b-12d3-a456-426614174000, 
+driver_token = validDriverToken1234567,  
+created_at = 2025-06-10 10:34:15.272197+00:00, 
+decision = DecisionTypes.UNKNOWN, 
+updated_at = 2025-06-10 10:34:15.272294+00:00, 
+callback_url = https://webhook.site/a02530e4-62e6-433b-ae31-d1392e823f12, 
+decision_taken_by = , 
+
+
+
+2025-06-10 10:34:15,285 [INFO] passed decision instance to the internal authorization service 
