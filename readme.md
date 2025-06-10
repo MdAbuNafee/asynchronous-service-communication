@@ -247,22 +247,14 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 
 
-There we need to import our database model with this command 
-```
-from asynchronous_service_communication.models import DecisionInstance
-```
+There we need to import our database model with this command: `from 
+asynchronous_service_communication.models import DecisionInstance`
 
-Then we can search how many rows are there in our database table with this query
-```
-len(DecisionInstance.objects.all())
-```
+Then we can search how many rows are there in our database table with this 
+query: `len(DecisionInstance.objects.all())`
 
 Also we can fetch our rows (sorted according to primary key desc) from the 
-table with this command:
-
-```
-DecisionInstance.objects.order_by('-pk').all()[start:end] 
-```
+table with this command: `DecisionInstance.objects.order_by('-pk').all()[start:end] `
 
 Please insert value for start and end here.
 
@@ -312,7 +304,6 @@ decision_taken_by = DecisionTakenByTypes.INTERNAL_AUTHORIZATION_SERVICE,
 >]>
 >>> exit()
 (.venv) nafee.zahid@Mds-MacBook-Pro asynchronous-service-communication % 
-
 ```
 
 

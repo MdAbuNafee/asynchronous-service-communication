@@ -9209,3 +9209,108 @@ starting of cron job
 2025-06-10 15:30:12,844 [INFO] decision_instance_list: <QuerySet []>
 2025-06-10 15:30:12,846 [INFO] end of cron job
 2025-06-10 15:30:12,846 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:30:42,851 [INFO] 
+
+starting of cron job
+2025-06-10 15:30:42,851 [INFO] target_time: 2025-06-10 15:30:32.851917+00:00
+2025-06-10 15:30:42,853 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:30:42,853 [INFO] end of cron job
+2025-06-10 15:30:42,853 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:31:12,857 [INFO] 
+
+starting of cron job
+2025-06-10 15:31:12,859 [INFO] target_time: 2025-06-10 15:31:02.859232+00:00
+2025-06-10 15:31:12,862 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:31:12,862 [INFO] end of cron job
+2025-06-10 15:31:12,863 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:31:42,868 [INFO] 
+
+starting of cron job
+2025-06-10 15:31:42,871 [INFO] target_time: 2025-06-10 15:31:32.870985+00:00
+2025-06-10 15:31:42,874 [INFO] decision_instance_list: <QuerySet [<DecisionInstance: 
+
+primary key = 21, 
+station_id = 123e4567-e89b-12d3-a456-426614174000, 
+driver_token = validDriverToken1234567,  
+created_at = 2025-06-10 15:31:29.619216+00:00, 
+decision = DecisionTypes.UNKNOWN, 
+updated_at = 2025-06-10 15:31:29.619238+00:00, 
+callback_url = https://webhook.site/a02530e4-62e6-433b-ae31-d1392e823f12, 
+decision_taken_by = , 
+
+
+>]>
+2025-06-10 15:31:42,875 [INFO] before changing decision_instance: 
+
+primary key = 21, 
+station_id = 123e4567-e89b-12d3-a456-426614174000, 
+driver_token = validDriverToken1234567,  
+created_at = 2025-06-10 15:31:29.619216+00:00, 
+decision = DecisionTypes.UNKNOWN, 
+updated_at = 2025-06-10 15:31:29.619238+00:00, 
+callback_url = https://webhook.site/a02530e4-62e6-433b-ae31-d1392e823f12, 
+decision_taken_by = , 
+
+
+
+2025-06-10 15:31:42,879 [INFO] after changing decision_instance: 
+
+primary key = 21, 
+station_id = 123e4567-e89b-12d3-a456-426614174000, 
+driver_token = validDriverToken1234567,  
+created_at = 2025-06-10 15:31:29.619216+00:00, 
+decision = DecisionTypes.UNKNOWN, 
+updated_at = 2025-06-10 15:31:42.876695+00:00, 
+callback_url = https://webhook.site/a02530e4-62e6-433b-ae31-d1392e823f12, 
+decision_taken_by = DecisionTakenByTypes.CRON_JOB, 
+
+
+
+2025-06-10 15:31:42,879 [INFO] beginning of make_callback
+2025-06-10 15:31:42,879 [INFO] making callback to https://webhook.site/a02530e4-62e6-433b-ae31-d1392e823f12 post_data: {'station_id': '123e4567-e89b-12d3-a456-426614174000', 'driver_token': 'validDriverToken1234567', 'status': 'DecisionTypes.UNKNOWN'}
+2025-06-10 15:31:42,998 [INFO] callback response: <Response [200]>
+2025-06-10 15:31:42,999 [INFO] callback finished
+2025-06-10 15:31:42,999 [INFO] end of cron job
+2025-06-10 15:31:43,000 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:32:13,005 [INFO] 
+
+starting of cron job
+2025-06-10 15:32:13,005 [INFO] target_time: 2025-06-10 15:32:03.005485+00:00
+2025-06-10 15:32:13,006 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:32:13,006 [INFO] end of cron job
+2025-06-10 15:32:13,006 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:32:43,010 [INFO] 
+
+starting of cron job
+2025-06-10 15:32:43,012 [INFO] target_time: 2025-06-10 15:32:33.012727+00:00
+2025-06-10 15:32:43,016 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:32:43,017 [INFO] end of cron job
+2025-06-10 15:32:43,017 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:33:13,021 [INFO] 
+
+starting of cron job
+2025-06-10 15:33:13,022 [INFO] target_time: 2025-06-10 15:33:03.022315+00:00
+2025-06-10 15:33:13,025 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:33:13,026 [INFO] end of cron job
+2025-06-10 15:33:13,026 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:33:43,032 [INFO] 
+
+starting of cron job
+2025-06-10 15:33:43,032 [INFO] target_time: 2025-06-10 15:33:33.032332+00:00
+2025-06-10 15:33:43,032 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:33:43,033 [INFO] end of cron job
+2025-06-10 15:33:43,033 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:34:13,036 [INFO] 
+
+starting of cron job
+2025-06-10 15:34:13,036 [INFO] target_time: 2025-06-10 15:34:03.036959+00:00
+2025-06-10 15:34:13,037 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:34:13,038 [INFO] end of cron job
+2025-06-10 15:34:13,038 [INFO] Sleeping for : 30 seconds
+2025-06-10 15:34:43,042 [INFO] 
+
+starting of cron job
+2025-06-10 15:34:43,042 [INFO] target_time: 2025-06-10 15:34:33.042310+00:00
+2025-06-10 15:34:43,043 [INFO] decision_instance_list: <QuerySet []>
+2025-06-10 15:34:43,043 [INFO] end of cron job
+2025-06-10 15:34:43,043 [INFO] Sleeping for : 30 seconds
