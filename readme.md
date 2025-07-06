@@ -31,7 +31,8 @@ The solution is written in python3 (django). Main parts are
      (ACL)` to make a decision.
    - Modify the existing request in the database with the decision
    - Send a callback to the client informing the decision
-3. A job that is running after every `CRON_JOB_SLEEP_TIME_IN_SECONDS`  (`CRON_JOB_SLEEP_TIME_IN_SECONDS` may vary). For detaisl 
+3. A job that is running after every `CRON_JOB_SLEEP_TIME_IN_SECONDS`  
+   (`CRON_JOB_SLEEP_TIME_IN_SECONDS` may vary). For details 
    please check the file `asynchronous_service_communication/management/commands/give_decision_after_timeout.py`
    - it fetches a list of requests that has both the characteristics 
      - created before `TIMEOUT_IN_SECONDS`  (`TIMEOUT_IN_SECONDS` may vary)
