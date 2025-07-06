@@ -10,9 +10,6 @@ from asynchronous_service_communication import (
     logger,
 )
 
-# TODO: Check whether I can use choices as TextChoices for DecisionType :
-# https://stackoverflow.com/questions/54802616/how-can-one-use-enums-as-a-choice-field-in-a-django-model
-
 
 @shared_task
 def make_decision(primary_key: int) -> Optional[models.DecisionInstance]:
