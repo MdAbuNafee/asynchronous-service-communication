@@ -166,7 +166,7 @@ Please go to the root of the project.
 Then in terminal run 
 
 ```
-service_name=command TIMEOUT_IN_SECONDS=10 CRON_JOB_SLEEP_TIME_IN_SECONDS=30 python3 manage.py give_decision_after_timeout service_name=command python3 manage.py give_decision_after_timeout
+service_name=command TIMEOUT_IN_SECONDS=10 CRON_JOB_SLEEP_TIME_IN_SECONDS=30 python3 manage.py give_decision_after_timeout
 ```
 
 We can give our preferred value for the `TIMEOUT_IN_SECONDS` and 
