@@ -30,7 +30,6 @@ class Command(BaseCommand):
         while True:
             logger.info("\n\nstarting of cron job")
             target_time = timezone.now() - timedelta(
-                hours=0,
                 seconds=int(TIMEOUT_IN_SECONDS),
             )
             logger.info(f"target_time: {target_time}")
