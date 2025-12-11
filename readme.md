@@ -1,5 +1,12 @@
 # asynchronous-service-communication 
 
+## Technologies Used
+* Python
+* Django
+* Redis
+* Celery
+* SQLite (Database)
+
 ## Task to implement
 ![](./taskGivenToMe1.png)
 ![](./taskGivenToMe2.png)
