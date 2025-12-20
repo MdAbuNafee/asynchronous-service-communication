@@ -3,4 +3,5 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-asynchronous_service_communication/__pycache__/
+asynchronous_service_communication/**__pycache__**/
+**__pycache__**
