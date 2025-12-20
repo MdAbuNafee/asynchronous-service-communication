@@ -83,17 +83,30 @@ $ redis-cli ping
 PONG
 ```
 
+## Creating Virtual Env
+
+It's better to create a virtual env so that our environment for running this project is kept separate.
+Virtual env is created in a folder. Let's create it in the root folder of our project.
+
+For creating a virtual environment in our root folder of the project:
+1. We need to go to the root folder of this project.
+2. Then need to run this command `python3 -m venv .venv`
+
+For activating the virtual environment we need to follow following steps:
+1. We need to go to the root folder of this project.
+2. Then need to run the command `source .venv/bin/activate`
+
 ## Dependency installation
 1. We need go to the root folder of this project.
 2. Then need to run `python3 -m pip install -r requirements.txt`
 
 ## How to run test case
 1. Please go to the root folder of this project.
-2. Then need to run in terminal `manage.py test`
+2. Then need to run in terminal `python3 manage.py test`
 
 If the tests passed, we should be able to see a output like this:
 ```
-nafee.zahid@Mds-MacBook-Pro asynchronous-service-communication % ./manage.py test
+nafee.zahid@Mds-MacBook-Pro asynchronous-service-communication % python3 manage.py test
 Found 6 test(s).
 System check identified no issues (0 silenced).
 ...Bad Request: /charge_point/session/
@@ -107,7 +120,7 @@ OK
 
 If the test fails, we should be able to see a failure warning like this:
 ```
-(.venv) nafee.zahid@Mds-MacBook-Pro asynchronous-service-communication % ./manage.py test
+(.venv) nafee.zahid@Mds-MacBook-Pro asynchronous-service-communication % python3 manage.py test
 Found 6 test(s).
 System check identified no issues (0 silenced).
 ...Bad Request: /charge_point/session/
