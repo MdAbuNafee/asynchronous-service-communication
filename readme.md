@@ -1,7 +1,9 @@
 # asynchronous-service-communication 
 
 ## Video demonestration of the project:
-https://www.youtube.com/watch?v=reUgYLmd8Dw
+
+[![Video demonestration of asynchronous-service-communication](https://img.youtube.com/vi/reUgYLmd8Dw/maxresdefault.jpg)](https://www.youtube.com/watch?v=reUgYLmd8Dw)
+
 
 ## Technologies Used
 * Python
