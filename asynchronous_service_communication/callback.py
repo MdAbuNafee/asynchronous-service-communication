@@ -22,13 +22,17 @@ def make_callback(
         "status": str(status),
     }
     logger.info(f"making callback to {callback_url} post_data: {post_data}")
-    response = requests.post(callback_url, json=post_data)
-    logger.info(f"callback response: {response}")
-    if response.status_code != 200:
-        logger.error(
-            f"request failed. status code : {response.status_code}. "
-            f"content: {response.content}"
-        )
+    try:
+        response = requests.post(callback_url, json=post_data)
+        logger.info(f"callback response: {response}")
+        if response.status_code != 200:
+            logger.error(
+                f"request failed. status code : {response.status_code}. "
+                f"content: {response.content}"
+            )
+            return False
+    except Exception as e:
+        logger.error(f"HTTP Error : {e}")
         return False
     logger.info(f"callback finished")
     return True
